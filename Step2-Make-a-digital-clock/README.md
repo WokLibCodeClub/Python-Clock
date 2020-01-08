@@ -1,6 +1,17 @@
-# Python-Clock
+# Making a Digital Clock
 
-### The clock in the classroom has broken! How will we know when it's time to go home?
+#### At this point it's a good idea to start a new .py file. Use File SaveAs to save your code with a new name, for example **digital-clock.py**
+
+We are going to use Python Turtles to show the time in large letters, so we need to import the turtle module. Under the line of code which imports the ```datetime``` module add the code:
+```
+from turtle import *
+```
+
+We will also be using the Python ```sleep()``` function which is in the ```time``` module, so we need to import this:
+```
+from time import sleep
+```
+
 
 This is a project to use Python turtles to generate a clock which we can display on the screen to show everyone what the time is. 
 
