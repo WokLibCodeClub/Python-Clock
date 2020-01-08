@@ -41,9 +41,6 @@ This will cause the code to pause for one second then check the time again and d
 
 Save your code and run it to see what happens.
 
-Oh dear, when the turtle writes the new time it writes it over the top of the previous time. Luckily we can clear the turtle screen using the function ```clearscreen()```. It doesn't need any values in the brackets. Add this 
-
-
 [Continue](README4.md)
 
 
