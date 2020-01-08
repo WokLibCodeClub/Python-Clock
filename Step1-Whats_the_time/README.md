@@ -8,7 +8,7 @@ make a new folder where you keep your Python code to keep all your files for thi
 
 #### Second:
 
-start a brand new Python file to put the code for this step in. You could call it ** get_time.py**
+start a brand new Python file to put the code for this step in. You could call it **get_time.py**
 
 The Python functions for finding out about the date or time are in a special *module* called ```datetime``` so the first line of code needs to import this module:
 
@@ -39,6 +39,15 @@ Save your code and run it. It should print out something like this:
 ```
 which means that at the moment when I ran my code the time was 38 seconds and 32 minutes past 11am.
 
-Printing out the time like this is not a good way of showing what the time is.
+Printing out the time like this is not a good way of showing what the time is as it's very small. In the next step we will use Turtles to make a much bigger display which keeps updating itself.
+
+Before that we need to make some variables to hold the values of the hour, minute and second of the current time. Here is an example of putting the hour value in a variable:
+```
+H = time_now.hour
+```
+
+Add two more lines to put the minutes and seconds into their own variables.
+
+You can also delete or comment out the print functions in your code as we won't be needing those.
 
 [Go to step 2](Step2-Make-a-digital-clock)
