@@ -26,36 +26,19 @@ The turtle will automatically be in the middle of the screen so that's where the
 ## Do you remember how to do this?
 
 Try and work it out before looking below.
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
-{empty} +
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
 If you have the hour in a variable called ```H```, the minutes in a variable called ```M``` and the seconds in a variable called ```S``` then you could write the time on the screen using
 ```
 t.write(str(H)+str(M)+str(S))
