@@ -24,6 +24,7 @@ Displaying the time once is not very useful. We want our digital clock to keep u
 * finding out the time, 
 * putting the hours minutes and seconds into variables and 
 * having the turtle write the time 
+
 inside the loop.
 
 Start the forever loop with this code:
@@ -32,7 +33,15 @@ while True:
 ```
 Move your lines of code which find out the time, extract the hour, minutes and seconds to variables and display the time *below* this line and **INDENT ALL THESE LINES**  to show they are part of the loop.
 
+Add one more line to the end of the ```while True:``` loop:
+```
+sleep(1)
+```
+This will cause the code to pause for one second then check the time again and display the new time.
+
 Save your code and run it to see what happens.
+
+
 
 
 [Go to step 3](../Step3-Analogue-clock-second-hand)
