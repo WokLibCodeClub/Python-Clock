@@ -35,12 +35,12 @@ second_hand = Turtle()
 second_hand.color("red")
 ```
 
-Save your code and run it. You should see the clock background with a red arrow-shaped turtle in the middle of the clock.
+Save your code and run it. You should see the clock background with a red arrow-shaped turtle in the middle of the clock pointing towards the 12.
 
 Unfortunately the arrow shape is not much good as a second hand - we need something longer and thinner. We can create our own shape for a turtle by specifying a set x and y coordinates. Use this code to make a long thin second hand shape:
 ```
 screen.register_shape("second hand", ((-1,-4), (1,-4), (1,230), (-1, 230)))
 second_hand.shape("second hand")
 ```
-Each pair of numbers in brackets is an x coordinate and a y coordinate for a corner of the turtle shape. Save your code and run it. You should see a long thin turtle pointing at the number 12.
+Each pair of numbers in brackets is an x coordinate and a y coordinate for a corner of the turtle shape. Save your code and run it. You should see a long thin turtle pointing to the number 12.
 
