@@ -46,9 +46,9 @@ Each pair of numbers in brackets is an x coordinate and a y coordinate for a cor
 
 # Moving the second hand
 
-To get the second hand to point to a different number we use the turtle ```setheading()``` function. Try adding this line to the end of your code:
+To get the second hand to turn to the right and point to a different number we use the turtle ```right()``` function. Try adding this line to the end of your code:
 ```
-second_hand.setheading(45)
+second_hand.right(45)
 ```
 Save your code and run it. Hopefully you saw the second hand move round by 45 degrees, so it's now pointing between the 1 and 2.
 
