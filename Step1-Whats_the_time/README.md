@@ -50,4 +50,4 @@ Add two more lines to put the minutes and seconds into their own variables.
 
 You can also delete or comment out the print functions in your code as we won't be needing those.
 
-[Go to step 2](Step2-Make-a-digital-clock)
+[Go to step 2](..\Step2-Make-a-digital-clock)
