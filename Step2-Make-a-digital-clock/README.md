@@ -25,6 +25,6 @@ The turtle will automatically be in the middle of the screen so that's where the
 
 ## Do you remember how to do this?
 
-Try and work it out before looking below.
+Try and work it out before looking at the answer.
 
 [Go to answer](README2.md)
