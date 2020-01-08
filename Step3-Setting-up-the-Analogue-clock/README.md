@@ -2,7 +2,7 @@
 
 It's best to start a new .py file for the analogue clock to avoid confusion with the code for the digital clock. You could call this file **analogue-clock.py**
 
-At the top of the file we need to import the same modules as for the digital clock, so copy all the import lines in from the digital clock code.
+At the top of the file we need to import the same modules as for the digital clock, so **copy all the import lines** in from the digital clock code.
 
 We are going to use turtles for the clock hands but first we need a clock background. For this step we will use a ready-made background (but at the end of the project you should try writing code to create your own background).
 
@@ -43,3 +43,4 @@ screen.register_shape("second hand", ((-1,-4), (1,-4), (1,230), (-1, 230)))
 second_hand.shape("second hand")
 ```
 Each pair of numbers in brackets is an x coordinate and a y coordinate for a corner of the turtle shape. Save your code and run it. You should see a long thin turtle pointing at the number 12.
+
