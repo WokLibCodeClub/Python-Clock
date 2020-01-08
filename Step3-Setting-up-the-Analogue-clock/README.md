@@ -23,3 +23,23 @@ The other lines tell Python to make the clock image available for us to use, and
 
 Save this code and run it to see what happens.
 
+We will now create a turtle to use as the clock's second hand. First, though, add this line to your code:
+```
+mode("logo")
+```
+This tells Python that when we tell the turtle to point in the direction of 0 degrees we want it to point directly upwards (towards North). (Without this line the turtle would point to the right if we set it to 0 degrees.)
+
+Now make a turtle to use for the second hand and set its colour to red:
+```
+second_hand = Turtle()
+second_hand.color("red")
+```
+
+Save your code and run it. You should see the clock background with a red arrow-shaped turtle in the middle of the clock.
+
+Unfortunately the arrow shape is not much good as a second hand - we need something longer and thinner. We can create our own shape for a turtle by specifying a set x and y coordinates. Use this code to make a long thin second hand shape:
+```
+screen.register_shape("second hand", ((-1,-4), (1,-4), (1,230), (-1, 230)))
+second_hand.shape("second hand")
+```
+Each pair of numbers in brackets is an x coordinate and a y coordinate for a corner of the turtle shape. Save your code and run it. You should see a long thin turtle pointing at the number 12.
