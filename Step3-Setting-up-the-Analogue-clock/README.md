@@ -44,3 +44,21 @@ second_hand.shape("second hand")
 ```
 Each pair of numbers in brackets is an x coordinate and a y coordinate for a corner of the turtle shape. Save your code and run it. You should see a long thin turtle pointing to the number 12.
 
+# Moving the second hand
+
+To get the second hand to point to a different number we use the turtle ```setheading()``` function. Try adding this line to the end of your code:
+```
+second_hand.setheading(45)
+```
+Save your code and run it. Hopefully you saw the second hand move round by 45 degrees, so it's now pointing between the 1 and 2.
+
+Delete the last line you just added.
+
+Now we're going to make a loop and get the second hand to move round the clock. Here is the code:
+
+```
+while True:
+    second_hand.right(?)
+    sleep(1)
+```
+**THIS CODE WON'T WORK.** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
