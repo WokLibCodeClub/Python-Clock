@@ -7,7 +7,7 @@ What we need is a way to fill the number of seconds with an extra zero, so that 
 The finished write function will look like this:
 ```
     t.write(str(H).zfill(2) + ":" + str(M).zfill(2) + ":" + str(S).zfill(2),
-            font=("arial", 96, "normal"), align = "center")
+            font=("Arial", 96, "normal"), align = "center")
 ```
 
 To change the colour of the text you need to change the colour of the turtle. If you wanted the text to be red, for example, you would do this by adding the code ```t.color("red")``` just after you have created the turtle called ```t```.
