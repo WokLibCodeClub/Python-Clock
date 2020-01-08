@@ -67,5 +67,5 @@ Hint: You know how many degrees there are in a circle. You know how many seconds
 
 When you've calculated the number save your code and try running it.
 
-[Continue to Step 4](Step4-Adding-big-and-little-hands)
+[Continue to Step 4](../Step4-Adding-big-and-little-hands)
 
