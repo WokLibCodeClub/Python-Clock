@@ -11,9 +11,15 @@ You need to download the clock image. Do this by clicking [here](blank_clock.gif
 Add these lines of code below the import lines:
 ```
 screen = Screen()
-setup(650,650)
+setup(600,600)
 clock_image = "blank_clock.gif"
 screen.register_shape(clock_image)
 screen.bgpic(clock_image)
 ```
+
+These lines set up a turtle screen and specify its size as 600 pixels across by 600 pixels high. This will be just big enough to contain the blank clock image, which is 551 pixels by 551 pixels.
+
+The other lines tell Python to make the clock image available for us to use, and to set the background of the turtle screen to show the clock image.
+
+Save this code and run it to see what happens.
 
