@@ -21,7 +21,7 @@ We are using the turtle to write the time, but we don't actually want to see the
 t.hideturtle()
 ```
 
-The turtle will automatically be in the middle of the screen so that's where the time will be displayed. We get the turtle to display text using the turtle ```write()``` function with whatever we want to display inside the brackets. But *there is a problem* - which is that the turtle will only display a string, and the variables containing the hours, minutes and seconds are *numerical*. So, before we can use them for our digital clock, we need to convert these variables into string variables.
+The turtle will automatically be in the middle of the screen so that's where the time will be displayed. We get the turtle to display text using the turtle ```write()``` function and put whatever we want to display inside the brackets. But *there is a problem* - which is that the turtle ```write()``` function will only display a string, and the variables containing the hours, minutes and seconds are *numerical*. So, before we can use them for our digital clock, we need to convert these variables into string variables.
 
 ## Do you remember how to do this?
 
@@ -60,7 +60,7 @@ Try and work it out before looking below.
 
 &nbsp;
 
-&nbsp;
+&NewLine;
 
 
 
