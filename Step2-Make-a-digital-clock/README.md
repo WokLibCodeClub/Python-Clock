@@ -38,6 +38,30 @@ Try and work it out before looking below.
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 If you have the hour in a variable called ```H```, the minutes in a variable called ```M``` and the seconds in a variable called ```S``` then you could write the time on the screen using
 ```
