@@ -54,7 +54,7 @@ Save your code and run it. Hopefully you saw the second hand move round by 45 de
 
 Delete the last line you just added.
 
-Now we're going to make a loop and get the second hand to move round the clock. Here is the code:
+Now we're going to make a loop and get the second hand to move round the clock by turning it to the right a set number of degrees, then waiting one second. Here is the code:
 
 ```
 while True:
@@ -62,3 +62,10 @@ while True:
     sleep(1)
 ```
 **THIS CODE WON'T WORK.** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
+
+Hint: You know how many degrees there are in a circle. You know how many seconds there are in a minute.
+
+When you've calculated the number save your code and try running it.
+
+[Continue to Step 4](Step4-Adding-big-and-little-hands)
+
