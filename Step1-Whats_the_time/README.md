@@ -4,7 +4,7 @@ Computers always need to know what the time is, and usually you can see the comp
 
 #### First:
 
-make a new folder where you keep your Python code to keep all your files for this project. You could call it **Python-clock**
+make a new folder for this project in the place where you keep your Python code. You could call it **Python-clock**
 
 #### Second:
 
