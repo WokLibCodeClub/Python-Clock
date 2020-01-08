@@ -21,9 +21,9 @@ t.write(str(H)+":"+str(M)+":"+str(S), font=("Arial", 96, "normal"), align = "cen
 # Keep the time updating
 
 Displaying the time once is not very useful. We want our digital clock to keep updating itself. For this we need a Python **forever loop** and we can put all the code for 
-i) finding out the time, 
-ii) putting the hours minutes and seconds into variables and 
-iii) having the turtle write the time 
+* finding out the time, 
+* putting the hours minutes and seconds into variables and 
+* having the turtle write the time 
 inside the loop.
 
 Start the forever loop with this code:
