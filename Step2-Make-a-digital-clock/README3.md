@@ -25,7 +25,7 @@ Displaying the time once is not very useful. We want our digital clock to keep u
 * putting the hours minutes and seconds into variables and 
 * having the turtle write the time 
 
-inside the loop.
+*inside* the loop.
 
 Start the forever loop with this code:
 ```
