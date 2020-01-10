@@ -63,9 +63,9 @@ while True:
 ```
 **THIS CODE WON'T WORK.** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
 
-Hint: You know how many degrees there are in a circle. You know how many seconds there are in a minute.
+Hint: You know how many degrees there are in a circle. You know how many seconds there are in a minute. So, you can calculate how many degrees make one second.
 
-When you've calculated the number save your code and try running it.
+When you've calculated the number edit your code, save it and try running it.
 
 [Continue to Step 4](../Step4-Adding-big-and-little-hands)
 
