@@ -10,7 +10,7 @@ The more exciting part of the project is to use Python turtles to draw an old-fa
 
 ![Clock example](clock_example.png "One example analogue clock") 
 
-Clock image taken from [https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html](https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html)
+###### Clock image taken from [https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html](https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html)
 
 
 ### Let's get started...
