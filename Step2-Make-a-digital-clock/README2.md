@@ -4,6 +4,6 @@ To have a turtle **write** several numerical variables, one after the other, con
 
 Try this in your code before continuing.
 
-[Continue](README3.md)
+[Continue](README3.md)   [Go back to previous page](README2.md)
 
 
