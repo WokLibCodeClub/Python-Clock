@@ -8,6 +8,8 @@ We are going to use turtles for the clock hands but first we need a clock backgr
 
 You need to download the clock image. Do this by clicking [here](blank_clock.gif) then *right-click* on the grey Download button and save the file to the same folder where you are writing the clock code.
 
+> After you have downloaded the clock background click the **Back** button in your browser to get back to this page.
+
 Add these lines of code below the import lines:
 ```
 screen = Screen()
