@@ -24,9 +24,9 @@ t.hideturtle()
 >### Special Note if you are writing your code with the *Visual Studio Code* editor:
 
 >With Visual Studio Code you will find that the Turtle window opens and closes again immediately, so you don't have a chance to see what is in the window. To stop this happening you need to add a line at the *bottom* of your code which says
-```
-    mainloop()
-```
+>```
+>    mainloop()
+>```
 >This will keep the turtle window open. Make sure this line is always the *last* line in your code - don't put any lines of code after this.
 
 >If you are using the IDLE editor _*YOU DO NOT NEED THIS LINE OF CODE*_.
