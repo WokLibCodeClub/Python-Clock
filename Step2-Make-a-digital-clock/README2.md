@@ -6,6 +6,6 @@ Try this in your code before continuing.
 
 [Continue](README3.md)
 
-[Go back to previous page](README2.md)
+[Go back to previous page](README.md)
 
 
