@@ -12,6 +12,9 @@ The more exciting part of the project is to use Python turtles to draw an old-fa
 
 ###### Clock image copied from [https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html](https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html)
 
+>### Special Note:
+>
+>The code in this project doesn't seem to work on trinket.io. The project includes Turtle commands which are not recognised by trinket. We recommend building this project using the Python IDLE editor, or alternatively *Visual Studio Code*.
 
 ### Let's get started...
 
