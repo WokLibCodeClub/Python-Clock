@@ -14,6 +14,6 @@ To change the colour of the text you need to change the colour of the turtle. If
 
 We can use a lot of the same code in creating an Analogue clock.
 
-[Go to step 3](../Step3-Setting-up-the-Analogue-clock)
+[Go to Step 3 - Setting up the Analogue clock](../Step3-Setting-up-the-Analogue-clock)
 
 [Go back to previous page](README3.md)
