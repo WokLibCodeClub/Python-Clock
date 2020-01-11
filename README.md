@@ -12,6 +12,6 @@ The more exciting part of the project is to use Python turtles to draw an old-fa
 
 ### Let's get started...
 
-[Go to step 1](Step1-Whats_the_time)
+[Go to Step 1](Step1-Whats_the_time)
 
 
