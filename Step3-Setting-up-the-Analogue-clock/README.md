@@ -69,7 +69,7 @@ Hint: You know how many degrees there are in a circle. You know how many seconds
 
 When you've calculated the number edit your code, save it and try running it.
 
-[Continue to Step 4 - Adding the other hands](../Step4-Adding-big-and-little-hands)
+[Continue to Step 4 - Setting the position of the second hand](../Step4-Setting-second-hand-position)
 
 ###### Clock image copied from [https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html](https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html)
 
