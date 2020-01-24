@@ -6,7 +6,17 @@ The next step is to use Python to get the time (just like we did with the digita
 
 The code for telling a turtle which way to point is ```t.setheading(x)``` where the turtle is called ```t``` and we want it to point in a direction of ```x``` degrees counting clockwise round from the 12 o'clock position. So if we want our turtle called second_hand to point towards the 3 on the clock we'd use the code ```second_hand.setheading(90)```.
 
-For the time being delete the loop from the Step 3 code and instead put this into your code (you should recognise this from Step 1). This code will get the current time and put the hours into a variable called H, the minutes into a variable called M and the seconds into a variable called S. It will print the value of S in the Python shell, then set the direction the second hand has to point in:
+For the time being delete the loop from the Step 3 code and instead put this into your code (you should recognise this from Step 1). 
+
+This code will 
+1. get the current time 
+2. put the hours into a variable called H, 
+3. put the minutes into a variable called M and 
+4. put the seconds into a variable called S
+5. print the value of S in the Python shell 
+6. set the direction the second hand has to point in
+
+
 ```
 time_now = datetime.now()
 H = time_now.hour
