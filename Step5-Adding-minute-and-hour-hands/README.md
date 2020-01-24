@@ -11,6 +11,7 @@ minute_hand.shape("minute hand")
 ```
 If you add this code just after the code which makes the second hand and run it you should see that your clock has a second hand and a very ugly, oversized minute hand.
 
+Change the coordinates in the ```screen.register_shape()``` line of code to make a better shape. To understand what the coordinates mean look at this picture of the clock with the x and y coordinates marked. You need to select x and y values of corner points to make a thinner, more elegant minute hand.
 
 ![Clock with grid](clock_grid.gif "Clock with x and y coordinate grid") 
 
