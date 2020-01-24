@@ -33,7 +33,7 @@ Run the code several times and check the number printed in the Python shell (whi
 
 To keep our clock in synch with the computer's time we will need to keep checking the time and setting the position of the hands correctly. We can do this with just the second hand by putting the code shown above inside a ```while True:``` loop.
 
-Create a ```while True:``` containing the code for getting the time, putting the hours, minutes and seconds into variables, and setting the direction of the second hand. (You don't need the print() function).
+Create a ```while True:``` loop containing the code for getting the time, putting the hours, minutes and seconds into variables, and setting the direction of the second hand. (You don't need the print() function).
 
 Run your code and see if the second hand moves round properly.
 
