@@ -32,11 +32,25 @@ The minute hand starts pointing towards the 12 at the beginning of the hour. So 
 
 Can you work out the Python formula, using the variables ```M``` and ```S```, to calculate how many seconds have passed since the beginning of the hour?
 
-If we multiply this calculation by the calculation for how many degrees the minute hand moves every second we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code:
+If we multiply this formula by the formula for how many degrees the minute hand moves every second we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code:
 ```
-minute_hand.setheading(**your formula in here**)
+minute_hand.setheading(****your formula in here****)
 ```
 
+Once you have got a possible formula put this line of code into the ```while True:``` loop, after the code to set the direction of the second hand and run your code. Is the minute hand pointing to the right place? Watch your clock for a while to see if the minute hand is slowly creeping round. Whenever the second hand points at 12 the minute hand should be pointing exactly at one of the minute marks.
 
+### Setting the direction for the hour hand to point
 
+The steps for getting the hour hand to point in the right direction are exactly the same as for the minute hand, except the Python formulas are a little bit more complicated.
+
+First, we need a formula for **how many degrees the hour hand moves in a second**.
+Try and work this out using the same logic as for the minute hand - how many degrees there are in a circle, and how many seconds it takes for the hour hand to go all the way round the clock starting with pointing at the 12, until it's pointing to the 12 again.
+
+Second, we need *another* formula for **how many seconds have passed since the time was 12 o'clock**.
+This time we need to use all three variables ```H```, ```M``` and ```S```.
+
+Thirdly, we multiply the two formulas together to set the heading for the hour hand using:
+```
+hour_hand.setheading(****your formula for the hour hand in here***)
+```
 
