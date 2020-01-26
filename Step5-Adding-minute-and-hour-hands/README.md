@@ -9,11 +9,11 @@ minute_hand = Turtle()
 minute_hand.color("black")
 minute_hand.shape("minute hand")
 ```
-If you add this code just after the code which makes the second hand and run it you should see that your clock has a moving second hand and a very ugly, oversized minute hand.
+If you add this code just after the code which makes the second hand and run it you should see that your clock has a moving second hand and a **very ugly**, oversized minute hand.
 
-Change the coordinates in the ```screen.register_shape()``` line of code to make a better shape. To understand what the coordinates mean look at this picture of the clock with the x and y coordinates marked. You need to select x and y values of corner points to make a thinner, more elegant minute hand.
+Change the coordinates in the ```screen.register_shape()``` line of code to make a better shape. To understand what the coordinates mean look at this picture of the clock with the x and y coordinates of the minute hand marked. You need to select x and y values of corner points to make a thinner, more elegant minute hand.
 
-![Clock with grid](clock_grid.gif "Clock with x and y coordinate grid") 
+![Clock with grid and minute hand](clock_min_hand.gif "Clock with x and y coordinate grid and minute hand outline") 
 
 Once you have a nice-looking minute hand you can use very similar code to make an hour hand:
 
