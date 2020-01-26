@@ -31,6 +31,8 @@ As before, **THIS CODE WON'T WORK** because of the question mark. You need to re
 
 Run the code several times and check the number printed in the Python shell (which is the value of S) and the position of the second hand. Do they agree?
 
+If the second hand doesn't point in the right direction you need to adjust your code and try again. Don't worry if you the hand position isn't right first time - all coders have to try things lots of times until they get the code just right.
+
 To keep our clock in synch with the computer's time we will need to keep checking the time and setting the position of the hands correctly. We can do this with just the second hand by putting the code shown above inside a ```while True:``` loop.
 
 Create a ```while True:``` loop containing the code for getting the time, putting the hours, minutes and seconds into variables, and setting the direction of the second hand. (You don't need the print() function).
