@@ -16,7 +16,7 @@ To work out the formula for the minute hand we can use these facts:
 + there are 60 seconds in a minute
 + there are 60 minutes in an hour
 
-What is the formula to give Python so Python can calculate how many degrees the minute hand moves in a second?
+What is the formula to give Python so Python can calculate **how many degrees the minute hand moves in a second**?
 
 Go [here](README2.md) for a hint.
 
@@ -49,8 +49,9 @@ Try and work this out using the same logic as for the minute hand - how many deg
 Second, we need *another* formula for **how many seconds have passed since the time was 12 o'clock**.
 This time we need to use all three variables ```H```, ```M``` and ```S```.
 
-Thirdly, we multiply the two formulas together to set the heading for the hour hand using:
+Thirdly, we multiply the two formulas together to set the heading for the hour hand. Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the minute hand.
 ```
 hour_hand.setheading(****your formula for the hour hand in here***)
 ```
 
+Run your code and see if your clock hands are in the right place.
