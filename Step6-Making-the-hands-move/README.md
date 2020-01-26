@@ -18,7 +18,7 @@ To work out the formula for the minute hand we can use these facts:
 
 What is the formula to give Python so Python can calculate how many degrees the minute hand moves in a second?
 
-Go here for a hint.
+Go [here](README2.md) for a hint.
 
 The second step is to get the minute hand to point in the right direction.
 
