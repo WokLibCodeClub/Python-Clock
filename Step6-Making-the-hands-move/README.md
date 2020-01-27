@@ -55,3 +55,16 @@ hour_hand.setheading(****your formula for the hour hand in here***)
 ```
 
 Run your code and see if your clock hands are in the right place.
+
+### Stop the clock flickering
+
+You might find the clock hands are flickering as they move - this is because Python is trying to redraw all the turtles many times a second. One way to stop this is to add this line of code just before the ```while True:``` loop:
+```
+tracer(0)
+```
+and this line of code as the last line *inside* the ```while True:``` loop:
+```
+update()
+```
+
+With these extra lines Python will only redraw the turtles when it has to, so it should stop the flickering.
