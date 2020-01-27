@@ -68,3 +68,17 @@ update()
 ```
 
 With these extra lines Python will only redraw the turtles when it has to, so it should stop the flickering.
+
+### Draw the hands in the order you want
+
+Most clocks have the second hand above the minute and hour hands. If you've added the hands in the order of this project you will find the second hand is drawn *under* the hour and minute hands. To change this and put the second hand on top you need to change the order you create the turtles.
+
+Take all the code for creating and defining the second_hand turtle - in one example this code might look like this:
+```
+second_hand = Turtle()
+second_hand.color("red")
+screen.register_shape("second hand", ((-1,-4), (1,-4), (1,230), (-1, 230)))
+second_hand.shape("second hand")
+```
+
+and move it so it is *after* the code which creates and defines the hour_hand and minute_hand turtles. That will result in the second hand being drawn *after* the minute and hour hands, so it will appear on the top.
