@@ -49,7 +49,7 @@ Try and work this out using the same logic as for the minute hand - how many deg
 Second, we need *another* formula for **how many seconds have passed since the time was 12 o'clock**.
 This time we need to use all three variables ```H```, ```M``` and ```S```.
 
-Thirdly, we multiply the two formulas together to set the heading for the hour hand. Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the minute hand.
+Thirdly, we multiply the two formulas together to set the heading for the hour hand. Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the hour hand.
 ```
 hour_hand.setheading(****your formula for the hour hand in here***)
 ```
