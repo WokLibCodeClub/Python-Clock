@@ -15,7 +15,7 @@ grid_turtle.hideturtle()
 grid_turtle.penup()
 ```
 
-Place these lines of code with the code that creates the other turtles, but put them before the statement ```tracer(0)```
+Place these lines of code after the code that creates the other turtles, but put them before the statement ```tracer(0)```
 
 Since we are going to create our own clock background we should delete the turtle background:
 ### **DELETE THESE LINES:**
