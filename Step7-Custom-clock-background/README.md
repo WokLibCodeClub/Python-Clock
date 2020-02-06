@@ -50,4 +50,4 @@ grid_turtle.circle(?)
 
 Insert these lines _**above**_ the ```while True:``` loop. Run the code - you should see your circle with the hands moving inside it. Adjust the parameters to get the circle just right.
 
-[Continue to 2. Draw all the different size tick marks round the outside](README2.md)
+[Continue to *2. Draw all the different size tick marks round the outside*](README2.md)
