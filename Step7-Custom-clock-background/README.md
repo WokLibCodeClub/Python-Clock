@@ -31,6 +31,8 @@ To make sure the clock background appears **underneath** the clock hands we need
 
 We can make the turtle draw a circle with the code ```grid_turtle.circle(******)``` where we need to put the radius of the circle in pixels inside the brackets. The clock background image we used before was 551x551 pixels in size, and the clock hands have been drawn to fit this size. So the radius of the circle should be around half this. You can experiment with this.
 
+To make our code easy to change (if we want to make the clock bigger or smaller) put the value of the radius in a **variable**. Then we can easily use the circle radius in other bits of the code. You could call the variable ```clock_radius```.
+
 When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point. 
 
 We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used "red" and "black" in the code. Some of the other colours available are: "white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown". The turtle colour is set with ```grid_turtle.color(****)``` with the colour, including quote marks, inside the brackets.
