@@ -15,7 +15,7 @@ grid_turtle.hideturtle()
 grid_turtle.penup()
 ```
 
-Place these lines of code after the code that creates the other turtles, but put them before the statement ```tracer(0)```
+Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)```
 
 Since we are going to create our own clock background we should delete the turtle background:
 ### **DELETE THESE LINES:**
@@ -27,7 +27,7 @@ screen.bgpic(clock_image)
 
 ## 1. Draw a circle around the outside of the clock
 
-To make sure the clock background appears **underneath** the clock hands we need to draw the background *before* doing anything with the hands.
+To make sure the clock background appears **underneath** the clock hands we need to draw the background _**before**_ doing anything with the hands.
 
 We can make the turtle draw a circle with the code ```grid_turtle.circle(******)``` where we need to put the radius of the circle in pixels inside the brackets. The clock background image we used before was 551x551 pixels in size, and the clock hands have been drawn to fit this size. So the radius of the circle should be around half this. You can experiment with this.
 
