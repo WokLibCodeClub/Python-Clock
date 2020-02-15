@@ -1,27 +1,44 @@
 ## 2. Draw all the different size tick marks round the outside
 
-The image for the clock background showed three different type of tick marks - long fat ticks at 12, 3, 6, and 9; medium length medium thickness marks at all the other numbers and short thin ticks at all the minute positions.
+The image for the clock background showed three different type of tick marks - long fat ticks at 12, 3, 6, and 9; medium length medium thickness marks at all the other numbers and short thin ticks at all the minute positions. Let's start with little ticks to mark every second.
 
-We are going to code these ticks in Python using the ```grid_turtle``` turtle to draw them. We can write the code for each type of tick separately but that would mean duplicating a lot of code, which is the worst thing a coder can do.
+First - how long should they be? You can give the tick length by the number of pixels, but a better way is to make them a fraction of the radius - that way, if you make the clock bigger the ticks will automatically get bigger in the same proportion. We'll put this fraction in a variable called ```tick_len```. The *actual* length of the tick in pixels will be calculated by Python using a formula ```tick_len * clock_radius```.
 
-To avoid duplicating the code we will write a **function** to draw a general type of tick and use the same function with different parameters for our different types of ticks.
+Second - how thick should the ticks be? Again it's a good idea to give this as a fraction of the radius. We'll put this fraction in a variable called ```tick_thick```.
 
-What information do we need to draw the exact type of ticks we want? Here are suggestions:
-- tick length
-- tick colour
-- tick thickness
-- how many ticks round the circle
-- how big the circle is
+Third - we need to choose a colour for the ticks.
 
-That should cover everything.
+Fourth - how many ticks do we want? If we are drawing ticks for every second then we want 60. We'll put this number in a variable called ```num_ticks```.
 
-We can define our function 
+Now we'll use the turtle to draw one tick at the 12 o'clock position. Here are the first five lines, with comments to explain what each line does:
+```
+grid_turtle.home() # this sends the turtle to the middle of the clock
+grid_turtle.setheading(0) # this makes sure the turtle is pointing up
+grid_turtle.penup() # this makes sure the turtle won't start drawing yet
+grid_turtle.pensize(pen_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
+grid_turtle.pencolor(***) # choose your preferred colour
+```
+Next we want to move the turtle out towards the edge of the clock before we draw the tick. **_How do we work out how far the turtle has to move?_**
 
+Well, if our tick is going to be one tenth of the radius long, then we need the turtle to move nine tenths of the radius before drawing. That way, at the end of the tick the turtle will have reached the edge of the clock. The amount the turtle moves before drawing, plus the length of the tick must add up to the radius of the clock.
 
-Put the function _**after**_ the code which creates the turtles, but _**before**_ the line ```tracer(0)```.
+Put another way, if we give the length of the tick as a fraction of the radius, then the fraction the turtle moves **before** drawing **plus** the fraction for drawing the tick must add up to 1.
+```
+grid_turtle.forward(?) # this moves the turtle towards the edge of the clock
+```
+You need to work out what to put in the brackets. It will be a quantity multiplied by the clock's radius, but what quantity?
 
+Go [here](README3.md) for a hint.
 
+Now we put the turtle pen down, then we move forward while drawing the tick (again you have to put the formula in the brackets) then put the pen up again, and finally return back to the middle of the clock.
+```
+grid_turtle.pendown() # this gets the turtle ready for drawing
+grid_turtle.forward(?) # you must give the turtle for formula for how far to move
+grid_turtle.penup()
+grid_turtle.home()
+```
+Hopefully there's now a tick at the top of the clock.
 
-[Continue to *3. Draw the numbers*](README3.md)
+[Continue to next section *Draw multiple ticks*](README4.md)
 
 [Go back to previous page](README.md)
