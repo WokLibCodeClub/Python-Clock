@@ -1,4 +1,4 @@
-## 2. Draw all the different size tick marks round the outside
+## 2. Draw tick marks round the outside
 
 The image for the clock background showed three different type of tick marks - long fat ticks at 12, 3, 6, and 9; medium length medium thickness marks at all the other numbers and short thin ticks at all the minute positions. Let's start with little ticks to mark every second.
 
