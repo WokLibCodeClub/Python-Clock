@@ -1,6 +1,6 @@
 ## 2. Draw tick marks round the outside
 
-The image for the clock background showed three different type of tick marks - long fat ticks at 12, 3, 6, and 9; medium length medium thickness marks at all the other numbers and short thin ticks at all the minute positions. Let's start with little ticks to mark every second.
+The image for the clock background showed three different type of tick marks - long fat ticks at 12, 3, 6, and 9; medium length medium thickness marks at all the other numbers and short thin ticks at all the seconds positions. Let's start with little ticks to mark every second.
 
 First - how long should they be? You can give the tick length by the number of pixels, but a better way is to make them a fraction of the radius - that way, if you make the clock bigger the ticks will automatically get bigger in the same proportion. We'll put this fraction in a variable called ```tick_len```. The *actual* length of the tick in pixels will be calculated by Python using a formula ```tick_len * clock_radius```.
 
