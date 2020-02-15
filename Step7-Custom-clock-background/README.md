@@ -31,7 +31,7 @@ To make sure the clock background appears **underneath** the clock hands we need
 
 We can make the turtle draw a circle with the code ```grid_turtle.circle(******)``` where we need to put the radius of the circle in pixels inside the brackets. The clock background image we used before was 551x551 pixels in size, and the clock hands have been drawn to fit this size. So the radius of the circle should be around half this. You can experiment with this.
 
-We are going to use the radius in all the steps of drawing the clock background.  To make our code easy to change (if we want to make the clock bigger or smaller) _*put your chosen value of the radius in a variable*_. Then we can easily use the circle radius in other bits of the code. We have called the variable ```clock_radius```.
+We are going to use the radius in all the steps of drawing the clock background.  To make our code easy to change (if we want to make the clock bigger or smaller) _**put your chosen value of the radius in a variable**_. Then we can easily use the circle radius in other bits of the code. We have called the variable ```clock_radius```.
 
 When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point. 
 
