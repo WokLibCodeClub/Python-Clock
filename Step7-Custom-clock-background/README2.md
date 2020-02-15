@@ -4,7 +4,7 @@ The image for the clock background showed three different type of tick marks - l
 
 First - how long should they be? You can give the tick length by the number of pixels, but a better way is to make them a fraction of the radius - that way, if you make the clock bigger the ticks will automatically get bigger in the same proportion. We'll put this fraction in a variable called ```tick_len```. The *actual* length of the tick in pixels will be calculated by Python using a formula ```tick_len * clock_radius```.
 
-Second - how thick should the ticks be? Again it's a good idea to give this as a fraction of the radius. We'll put this fraction in a variable called ```tick_thick```.
+Second - how thick should the ticks be? Again it's a good idea to give this as a fraction of the radius. We'll put this fraction in a variable called ```tick_thick``` and the *actual* thickness of the tick in pixels will be calculated by Python using a formula ```tick_thick * clock_radius```..
 
 Third - we need to choose a colour for the ticks.
 
