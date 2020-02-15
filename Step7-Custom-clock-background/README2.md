@@ -11,6 +11,11 @@ What information do we need to draw the exact type of ticks we want? Here are su
 - tick colour
 - tick thickness
 - how many ticks round the circle
+- how big the circle is
+
+That should cover everything.
+
+We can define our function 
 
 
 Put the function _**after**_ the code which creates the turtles, but _**before**_ the line ```tracer(0)```.
