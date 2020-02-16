@@ -10,7 +10,7 @@ Third - we need to choose a colour for the ticks.
 
 Fourth - how many ticks do we want? If we are drawing ticks for every second then we want 60. We'll put this number in a variable called ```num_ticks```.
 
-Now we'll use the turtle to draw one tick at the 12 o'clock position. Here are the first five lines, with comments to explain what each line does:
+Now we'll use the turtle to draw one tick at the 12 o'clock position. Here are the first few lines, with comments to explain what each line does:
 
 Put this code after the code for drawing the circle.
 
