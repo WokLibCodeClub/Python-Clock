@@ -23,14 +23,13 @@ Put this code after the code for drawing the circle.
 ```
 tick_len = ? # the fraction of the circle radius to use for the tick length. You could try 0.1 to start with.
 tick_thick = ? # the fraction of the circle radius to use for the tick thickness. You could try 0.01 to start with.
-grid_turtle.pencolor(***) # choose your preferred colour for the ticks
+grid_turtle.pencolor(***) # choose your preferred colour for the ticks - don't forget the quote marks
 num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds positions
 
 grid_turtle.home() # this sends the turtle to the middle of the clock
 grid_turtle.setheading(0) # this makes sure the turtle is pointing up
 grid_turtle.penup() # this makes sure the turtle won't start drawing yet
 grid_turtle.pensize(pen_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
-grid_turtle.pencolor(***) # choose your preferred colour
 ```
 Next we want to move the turtle out towards the edge of the clock before we draw the tick. **_How do we work out how far the turtle has to move?_**
 
