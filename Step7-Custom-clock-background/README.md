@@ -9,13 +9,14 @@ What if we wanted a much bigger clock, or a clock with different style lettering
 3. Draw the numbers
 
 We will create a new turtle to do all this drawing. In this example the turtle is called ```grid_turtle```. We don't actually want to see this turtle, only the results of the drawing, so we can hide the turtle. When the turtle is created we will set the pen to penup so the turtle won't start drawing until we tell it. Here are three lines of code to do these things:
+
+Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)```
+
 ```
 grid_turtle = Turtle()
 grid_turtle.hideturtle()
 grid_turtle.penup()
 ```
-
-Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)```
 
 Since we are going to create our own clock background we should delete the turtle background:
 ### **DELETE THESE LINES:**
