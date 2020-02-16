@@ -17,7 +17,7 @@ Click [here](SCREENSIZE.md) to see how to find out your screen size.
 
 The smaller number of the two screen size dimensions will give you the largest clock you can display on your screen. You probably need to limit the size to a bit less than this to leave room for the border and the Windows taskbar. On my screen the size is 1920 x 1080, so I would make my biggest clocksize 900.
 
-To set the clock size we will make a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if my clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For a clock 800 pixels across add this line just under the ```import``` lines:
+To set the clock size we will make a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if my clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For this example we'll make a clock 800 pixels across, so add this line just under the ```import``` lines:
 ```
 clock_radius = 400
 ```
