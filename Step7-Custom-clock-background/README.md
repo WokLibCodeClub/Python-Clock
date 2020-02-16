@@ -43,6 +43,9 @@ The turtle will initially be set with a pen width of 1, which will produce a ver
 Before drawing the circle we need to put the pen down.
 
 Here are the lines of code to draw the circle. You will need to fill in the question marks. Use the information above to help, and don't worry if it doesn't work exactly first time.
+
+Insert these lines _**above**_ the ```while True:``` loop.
+
 ```
 grid_turtle.goto(?,?)
 grid_turtle.color(?)
@@ -51,6 +54,6 @@ grid_turtle.pendown()
 grid_turtle.circle(clock_radius)
 ```
 
-Insert these lines _**above**_ the ```while True:``` loop. Run the code - you should see your circle with the hands moving inside it. Adjust the parameters to get the circle just right.
+Run the code - you should see your circle with the hands moving inside it. Adjust the parameters to get the circle just right.
 
 [Continue to *2. Draw all the different size tick marks round the outside*](README2.md)
