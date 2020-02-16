@@ -38,12 +38,12 @@ You need to work out what to put in the brackets. It will be a quantity multipli
 
 Go [here](README3.md) for a hint.
 
-Now we put the turtle pen down, then we move forward while drawing the tick (again you have to put the formula in the brackets) then put the pen up again, and finally return back to the middle of the clock.
+Now we put the turtle pen down, then we move forward while drawing the tick (again you have to put the formula in the brackets) then put the pen up again, and finally return back to the middle of the clock. Add these lines after the lines you've just added.
 ```
 grid_turtle.pendown() # this gets the turtle ready for drawing
 grid_turtle.forward(?) # you must give the turtle for formula for how far to move
 grid_turtle.penup()
-grid_turtle.home()
+grid_turtle.home() # send the turtle back to the middle of the clock
 ```
 Save and run the code. Hopefully there's now a tick at the top of the clock.
 
