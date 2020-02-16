@@ -2,13 +2,34 @@
 
 We took our clock background from a rather small image copied from the internet.
 
-What if we wanted a much bigger clock, or a clock with different style lettering? We could use a turtle to draw our own clock face, then put the clock hands we've already coded on top of this. There are three steps in these instructions for making the background, but, of course, you can choose which ones you want to use for your own clock:
+What if we wanted a much bigger clock, or a clock with different style lettering? We could use a turtle to draw our own clock face, then put the clock hands we've already coded on top of this. There are four steps in these instructions for making the background, but, of course, you can choose which ones you want to use for your own clock:
 
 1. Draw a circle around the outside of the clock
 2. Draw all the different size tick marks round the outside
 3. Draw the numbers
+4. Scale the clock hands to the size of clock
 
-We will create a new turtle to do all this drawing. In this example the turtle is called ```grid_turtle```. We don't actually want to see this turtle, only the results of the drawing, so we can hide the turtle. When the turtle is created we will set the pen to penup so the turtle won't start drawing until we tell it. Here are three lines of code to do these things:
+#### Set the clock size
+
+The first step is to decide how big you want your clock to be. This will partly depend on the size in pixels of your screen.
+
+Click [here](SCREENSIZE.md) to see how to find out your screen size.
+
+The smaller number of the two screen size dimensions will give you the largest clock you can display on your screen. You probably need to limit the size to a bit less than this to leave room for the border and the Windows taskbar. On my screen the size is 1920 x 1080, so I would make my biggest clocksize 900.
+
+To set the clock size we will make a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if my clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For a clock 800 pixels across add this line just under the ```import``` lines:
+```
+clock_radius = 400
+```
+Now we need to make sure the turtle window is big enough to show the clock. **_Change_** the setup instruction so the size is big enough for the clock. If the clock radius is 400, then the turtle window needs to be twice this in both directions. To be safe make the window just a little bit bigger. The setup code should be changed to
+```
+setup(clock_radius * 2.1, clock_radius * 2.1)
+```
+This code will adjust the window size to fit the clock radius, so if we change the radius the size of the window will change as well.
+
+#### Make a turtle to draw the background
+
+We will create a new turtle to do all the background drawing. In this example the turtle is called ```grid_turtle```. We don't actually want to see this turtle, only the results of the drawing, so we can hide the turtle. When the turtle is created we will set the pen to penup so the turtle won't start drawing until we tell it. Here are three lines of code to do these things:
 
 Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)```
 
