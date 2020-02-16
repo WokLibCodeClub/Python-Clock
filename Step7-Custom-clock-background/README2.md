@@ -22,9 +22,12 @@ Put this code after the code for drawing the circle.
 
 ```
 tick_len = ? # the fraction of the circle radius to use for the tick length. You could try 0.1 to start with.
+
 tick_thick = ? # the fraction of the circle radius to use for the tick thickness. You could try 0.01 to start with.
 grid_turtle.pensize(pen_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
+
 grid_turtle.pencolor(***) # choose your preferred colour for the ticks - don't forget the quote marks
+
 num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds positions
 
 grid_turtle.home() # this sends the turtle to the middle of the clock
@@ -33,7 +36,7 @@ grid_turtle.penup() # this makes sure the turtle won't start drawing yet
 ```
 Next we want to move the turtle out towards the edge of the clock before we draw the tick. **_How do we work out how far the turtle has to move?_**
 
-Well, if our tick is going to be one tenth of the radius long, then we need the turtle to move nine tenths of the radius before drawing. That way, at the end of the tick the turtle will have reached the edge of the clock. The amount the turtle moves before drawing, plus the length of the tick must add up to the radius of the clock.
+Well, if ```tick_len = 0.1``` then our tick is going to be one tenth of the radius long, so we need the turtle to move *nine* tenths of the radius before drawing. That way, at the end of the tick the turtle will have reached the edge of the clock. The amount the turtle moves before drawing, plus the length of the tick must add up to the radius of the clock.
 
 Put another way, if we give the length of the tick as a fraction of the radius, then the fraction the turtle moves **before** drawing **plus** the fraction for drawing the tick must add up to 1. Add this code after the lines you've just added.
 ```
