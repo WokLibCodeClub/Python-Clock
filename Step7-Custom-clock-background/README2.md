@@ -1,10 +1,12 @@
 ## 2. Draw tick marks round the outside
 
-The ```blank_clock.gif``` image we used before for the clock background had three different type of tick marks - long ticks at 12, 3, 6, and 9 positions; medium length ticks at all the other numbers; and short ticks at all the seconds positions. 
+The ```blank_clock.gif``` image we used before for the clock background had three different type of tick marks - long ticks at 12, 3, 6, and 9 positions; medium length ticks at all the other numbers; and short ticks at all the seconds positions. (The thicknesses of the different types of tick may also be slightly different.)
 
 ![Clock background](../Step3-Setting-up-the-Analogue-clock/blank_clock.gif "One example analogue clock") 
 
 We want to draw these three different types of ticks on our custom clock background. Let's start with little ticks to mark every second.
+
+### Draw ticks at the seconds positions
 
 First - how long should they be? You can give the tick length by the number of pixels, but a better way is to make them a fraction of the radius - that way, if you make the clock bigger the ticks will automatically get bigger in the same proportion. We'll put this fraction in a variable called ```tick_len```. The *actual* length of the tick in pixels will be calculated by Python using a formula ```tick_len * clock_radius```.
 
@@ -14,7 +16,7 @@ Third - we need to choose a colour for the ticks.
 
 Fourth - how many ticks do we want? If we are drawing ticks for every second then we want 60. We'll put this number in a variable called ```num_ticks```.
 
-Now we'll use the turtle to draw one tick at the 12 o'clock position. Here are the first few lines, with comments to explain what each line does:
+Now we'll use our drawing turtle to draw one tick at the 12 o'clock position. Here are the first few lines, with comments to explain what each line does:
 
 Put this code after the code for drawing the circle.
 
