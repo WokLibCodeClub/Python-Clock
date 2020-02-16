@@ -9,7 +9,7 @@ What if we wanted a much bigger clock, or a clock with different style lettering
 3. Draw the numbers
 4. Scale the clock hands to the size of clock
 
-#### Set the clock size
+### Set the clock size
 
 The first step is to decide how big you want your clock to be. This will partly depend on the size in pixels of your screen.
 
@@ -27,7 +27,7 @@ setup(clock_radius * 2.1, clock_radius * 2.1)
 ```
 This code will adjust the window size to fit the clock radius, so if we change the radius the size of the window will change as well.
 
-#### Make a turtle to draw the background
+### Make a turtle to draw the background
 
 We will create a new turtle to do all the background drawing. In this example the turtle is called ```grid_turtle```. We don't actually want to see this turtle, only the results of the drawing, so we can hide the turtle. When the turtle is created we will set the pen to penup so the turtle won't start drawing until we tell it. Here are three lines of code to do these things:
 
