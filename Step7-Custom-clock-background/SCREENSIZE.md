@@ -1,7 +1,7 @@
 ## How to find out your screen size on a Windows PC
 
 #### Windows 10
-Open the Settings app and search for Display Settings
+Open the **Settings** app and search for Display Settings
 
 Scroll down until you find an item called Display resolution. This will show the size of your screen in pixels across and pixels up and down.
 
