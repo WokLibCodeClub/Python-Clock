@@ -53,7 +53,9 @@ grid_turtle.forward(?) # you must give the turtle for formula for how far to mov
 grid_turtle.penup()
 grid_turtle.home() # send the turtle back to the middle of the clock
 ```
-Save and run the code. Hopefully there's now a tick at the top of the clock. You can adjust the length and thickness by changing the variables to get a tick which is exactly right.
+Save and run the code. Hopefully there's now a tick at the top of the clock. You can adjust the length and thickness by changing the variables ```tick_len``` and ```tick_thick```.
+
+(OK, I know we wanted a **long** tick at the 12 o'clock position. We will draw the shortest ticks first, then add longer ticks later on top of the short ticks, so at the end you will only see the long one at the 12.)
 
 [Continue to next section *Draw ticks at all the seconds positions*](README4.md)
 
