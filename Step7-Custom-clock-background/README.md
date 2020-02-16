@@ -55,7 +55,7 @@ We can make the turtle draw a circle with the code ```grid_turtle.circle(******)
 
 When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point. 
 
-We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used "red" and "black" in the code. Some of the other colours available are: "white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown". The turtle colour is set with ```grid_turtle.color(****)``` with the colour, including quote marks, inside the brackets.
+We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used "red" and "black" in the code. Some of the other colours available are: "white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown". The turtle colour is set with ```grid_turtle.color(****)``` with the colour, *including quote marks*, inside the brackets.
 
 The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pensize in the brackets. Experiment to find the best thickness.
 
@@ -73,6 +73,6 @@ grid_turtle.pendown()
 grid_turtle.circle(clock_radius)
 ```
 
-Run the code - you should see your circle with the hands moving inside it. Adjust the parameters to get the circle just right.
+Run the code - you should now see a circle around the clock, and the hands moving inside it. Adjust the parameters to get the circle just right.
 
 [Continue to *2. Draw all the different size tick marks round the outside*](README2.md)
