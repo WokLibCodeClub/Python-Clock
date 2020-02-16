@@ -7,6 +7,6 @@ In Python
 
 
 
-[Continue to next section *Draw ticks at all the seconds positions*](README5.md)
+[Continue to next section *Draw all the different size ticks*](README5.md)
 
 [Go back to previous page](README2.md)
