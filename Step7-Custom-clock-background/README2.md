@@ -12,7 +12,7 @@ First - how long should they be? You can give the tick length by the number of p
 
 Second - how thick should the ticks be? Again it's a good idea to give this as a fraction of the radius. We'll put this fraction in a variable called ```tick_thick``` and the *actual* thickness of the tick in pixels will be calculated by Python using a formula ```tick_thick * clock_radius```..
 
-Third - we need to choose a colour for the ticks.
+Third - we need to choose a colour for the ticks. We will use another variable for the colour, and call it ```tick_col```.
 
 Fourth - how many ticks do we want? If we are drawing ticks for every second then we want 60. We'll put this number in a variable called ```num_ticks```.
 
@@ -26,7 +26,8 @@ tick_len = ? # the fraction of the circle radius to use for the tick length. You
 tick_thick = ? # the fraction of the circle radius to use for the tick thickness. You could try 0.01 to start with.
 grid_turtle.pensize(pen_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
 
-grid_turtle.pencolor(***) # choose your preferred colour for the ticks - don't forget the quote marks
+tick_col = *** # choose your preferred colour for the ticks - don't forget the quote marks
+grid_turtle.pencolor(tick_col) # this sets the turtle's colour to your choice
 
 num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds positions
 
