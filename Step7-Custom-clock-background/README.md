@@ -21,7 +21,7 @@ To set the clock size we will make a variable called ```clock_radius``` and this
 ```
 clock_radius = 400
 ```
-Now we need to make sure the turtle window is big enough to show the clock. **_Change_** the setup instruction so the size is big enough for the clock. If the clock radius is 400, then the turtle window needs to be twice this in both directions. To be safe make the window just a little bit bigger. The setup code should be changed to
+Now we need to make sure the turtle window is big enough to show the clock. **_Change_** the ```setup(600, 600)``` instruction so the size is big enough for the clock. If the clock radius is 400, then the turtle window needs to be twice this in both directions. To be safe make the window just a little bit bigger. The setup code should be changed to
 ```
 setup(clock_radius * 2.1, clock_radius * 2.1)
 ```
