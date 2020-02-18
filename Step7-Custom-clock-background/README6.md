@@ -47,7 +47,7 @@ When you have worked out what goes in place of the question marks run the code. 
 ```
 In this example the font has been changed to Comic Sans, and the font size has been tied to the clock radius - so if you make the clock bigger the font will get bigger as well.
 
-**This code will now generate an error**, because we have introduced a new variable ```font_factor``` before telling Python what its value is. So we need to add a line of code outside the loop to define the variable  ```font_factor```. Add this line just after the code the draw the ticks:
+**This code will now generate an error**, because we have introduced a new variable ```font_factor``` before telling Python what its value is. So we need to add a line of code outside the loop to define the variable  ```font_factor```. Add this line just after the code that draw the ticks:
 ```
 font_factor = 6
 ```
