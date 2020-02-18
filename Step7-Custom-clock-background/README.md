@@ -5,9 +5,9 @@ We took our clock background from a rather small image copied from the internet.
 What if we wanted a much bigger clock, or a clock with different style lettering? We could use a turtle to draw our own clock face, then put the clock hands we've already coded on top of this. There are four steps in these instructions for making the background, but, of course, the choice is up to you which ones you want to use for your own clock:
 
 1. Draw a circle around the outside of the clock
-2. Draw all the different size tick marks round the outside
-3. Draw the numbers
-4. Scale the clock hands to the size of clock
+2. Scale the clock hands to the size of clock
+3. Draw all the different size tick marks round the outside
+4. Draw the numbers
 
 ### Save your code with a new name
 
