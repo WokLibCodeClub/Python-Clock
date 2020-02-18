@@ -28,7 +28,7 @@ num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds posit
 
 grid_turtle.pensize(tick_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
 grid_turtle.pencolor(tick_col) # this sets the turtle's colour to your choice
-grid_turtle.home() # this sends the turtle to the middle of the clock
+grid_turtle.goto(0,0) # this sends the turtle to the middle of the clock
 grid_turtle.setheading(0) # this makes sure the turtle is pointing up
 grid_turtle.penup() # this makes sure the turtle won't start drawing yet
 ```
@@ -49,7 +49,7 @@ Now we put the turtle pen down, then we move forward while drawing the tick (aga
 grid_turtle.pendown() # this gets the turtle ready for drawing
 grid_turtle.forward(?) # you must give the turtle for formula for how far to move
 grid_turtle.penup()
-grid_turtle.home() # send the turtle back to the middle of the clock
+grid_turtle.goto(0,0) # send the turtle back to the middle of the clock
 ```
 Save and run the code. Hopefully there's now a tick at the top of the clock. You can adjust the length and thickness by changing the variables ```tick_len``` and ```tick_thick```.
 
