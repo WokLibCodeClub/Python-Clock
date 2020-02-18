@@ -37,6 +37,9 @@ To keep our clock in synch with the computer's time we will need to keep checkin
 
 Create a ```while True:``` loop containing the code for getting the time, putting the hours, minutes and seconds into variables, and setting the direction of the second hand. (You don't need the print() function).
 
+### Note about indents
+When you put code inside a loop it's essential to **_indent_** all the lines of code inside the loop. With all the main Python editors you can indent lots of lines of code all in one go - select all the lines you want to indent, then press the TAB key once. You should see all the lines indent together.
+
 Run your code and see if the second hand moves round properly.
 
 [Continue to Step 5 - Adding the minute and hour hands](../Step5-Adding-minute-and-hour-hands)
