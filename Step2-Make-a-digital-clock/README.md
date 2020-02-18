@@ -16,7 +16,7 @@ For the digital clock we will use the turtle ```write()``` function to display t
 t = Turtle()
 ```
 
-We are using the turtle to write the time, but we don't actually want to see the turtle, so we can hide it:
+We are using the turtle to write the time, but we don't actually want to see the turtle, so we can hide it. Put this line immediately after the ```t=Turtle()``` line:
 ```
 t.hideturtle()
 ```
@@ -31,7 +31,13 @@ t.hideturtle()
 >
 >If you are using the IDLE editor _*YOU DO NOT NEED THIS LINE OF CODE*_.
 
-The turtle will automatically be in the middle of the screen so that's where the time will be displayed. We get the turtle to display text using the turtle ```write()``` function and put whatever we want to display inside the brackets. But *there is a problem* - which is that the turtle ```write()``` function will only display a string of text, and the variables containing the hours, minutes and seconds are *numerical*. So, before we can use them for our digital clock, we need to convert these variables into string variables.
+We will get the turtle to display the time using the turtle ```write()``` function. This is like the ```print()``` function and will cause text to appear in the turtle window. The text will be whatever you put inside the brackets. 
+
+The turtle will automatically be in the middle of the screen so that's where the time will be displayed. 
+
+
+
+But *there is a problem* - which is that the turtle ```write()``` function will only display a string of text, and the variables containing the hours, minutes and seconds are *numerical*. So, before we can use them for our digital clock, we need to convert these variables into string variables.
 
 ## Do you remember how to do this?
 
