@@ -2,12 +2,16 @@
 
 We took our clock background from a rather small image copied from the internet.
 
-What if we wanted a much bigger clock, or a clock with different style lettering? We could use a turtle to draw our own clock face, then put the clock hands we've already coded on top of this. There are four steps in these instructions for making the background, but, of course, you can choose which ones you want to use for your own clock:
+What if we wanted a much bigger clock, or a clock with different style lettering? We could use a turtle to draw our own clock face, then put the clock hands we've already coded on top of this. There are four steps in these instructions for making the background, but, of course, the choice is up to you which ones you want to use for your own clock:
 
 1. Draw a circle around the outside of the clock
 2. Draw all the different size tick marks round the outside
 3. Draw the numbers
 4. Scale the clock hands to the size of clock
+
+### Save your code with a new name
+
+If you have a properly working clock using the image background it would be a shame to risk losing that by changing the code to make a customised clock, so at this stage it would be a good idea to save the clock code with a new name - for example - **new-analogue-clock.py** and put all the new code for this step in the new file. That way you still have the code for the working clock in the old file.
 
 ### Set the clock size
 
@@ -53,24 +57,32 @@ To make sure the clock background appears **underneath** the clock hands we need
 
 We can make the turtle draw a circle with the code ```grid_turtle.circle(******)``` where we need to put the radius of the circle in pixels inside the brackets. Luckily we have a variable ```clock_radius``` which contains the radius of the clock, so we can use this variable in the ```circle()``` instruction.
 
-When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point. 
-
 We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used "red" and "black" in the code. Some of the other colours available are: "white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown". The turtle colour is set with ```grid_turtle.color(****)``` with the colour, *including quote marks*, inside the brackets.
 
-The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pensize in the brackets. Experiment to find the best thickness.
+The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in the brackets. 
 
-Before drawing the circle we need to put the pen down.
+However, a smarter way to do this is to give the pen thickness as a fraction of the clock radius. Then if you make your clock bigger or smaller the thickness of the circle will change in proportion. 
+
+We can put the circle thickness as a fraction in a variable called ```circle_thick```. Try a value of 0.05 to start with, and experiment to achieve a good look. Then to get the *actual* thickness of the line in pixels  multiply ```circle_thick``` by ```clock_radius```.
+
+When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point. 
+
+Before drawing the circle we need to put the pen down. After drawing the circle we will put the pen up, to stop it drawing.
 
 Here are the lines of code to draw the circle. You will need to fill in the question marks. Use the information above to help, and don't worry if it doesn't work exactly first time.
 
 Insert these lines _**above**_ the ```while True:``` loop.
 
 ```
-grid_turtle.goto(?,?)
+circle_thick = 0.05
+
 grid_turtle.color(?)
-grid_turtle.pensize(?)
+grid_turtle.pensize(clock_radius * circle_thick)
+
+grid_turtle.goto(?,?)
 grid_turtle.pendown()
 grid_turtle.circle(clock_radius)
+grid_turtle.penup()
 ```
 
 Run the code - you should now see a circle around the clock, and the hands moving inside it. Adjust the parameters to get the circle just right.
