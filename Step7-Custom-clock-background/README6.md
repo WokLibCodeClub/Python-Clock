@@ -18,7 +18,7 @@ Before we start the loop we'll get the turtle to the middle of the clock and poi
 grid_turtle.goto(0,0)
 grid_turtle.setheading(0)
 grid_turtle.color(*****) # put your chosen colour, including quote marks, inside the brackets
-'''
+```
 
 Inside the loop we need to do these operations
 1. turn the turtle to the right
