@@ -28,8 +28,6 @@ num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds posit
 
 grid_turtle.pensize(pen_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
 grid_turtle.pencolor(tick_col) # this sets the turtle's colour to your choice
-
-
 grid_turtle.home() # this sends the turtle to the middle of the clock
 grid_turtle.setheading(0) # this makes sure the turtle is pointing up
 grid_turtle.penup() # this makes sure the turtle won't start drawing yet
