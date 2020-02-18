@@ -20,9 +20,11 @@ What is the formula for **how many degrees the minute hand moves in a second**?
 
 Go [here](README2.md) for a hint.
 
-The second step is to get the minute hand to point in the right direction depending on what the current time is.
+The second step is to find a formula for **how many seconds have passed since the minute hand pointed at the 12**. 
 
-In the ```while True:``` loop we already put in the code to get the time now, and put the hours in a variable called ```H```, the minutes in a variable called ```M``` and the seconds in a variable called ```S```. We have worked out a formula for the second hand to work out where it should point. Now we need to work out a formula for the minute hand. Here are some facts we need to use:
+We can then multiply the two formulas together to find the angle where the minute hand should point.
+
+Here are some facts we need to use for **how many seconds have passed since the minute hand pointed at the 12**:
 
 + the minute hand starts pointing towards the 12 at the beginning of the hour
 + the number of minutes since the hour began is in a variable called ```M```
@@ -31,7 +33,7 @@ In the ```while True:``` loop we already put in the code to get the time now, an
 
 Can you work out the Python formula, using the variables ```M``` and ```S```, to calculate **how many seconds have passed since the minute hand pointed at the 12**?
 
-If we multiply this formula by the formula for how many degrees the minute hand moves every second we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code:
+Then we multiply this formula by the formula you worked out for how many degrees the minute hand moves every second and we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code:
 ```
 minute_hand.setheading(****your formula in here****)
 ```
