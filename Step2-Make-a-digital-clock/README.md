@@ -35,7 +35,16 @@ We will get the turtle to display the time using the turtle ```write()``` functi
 
 The turtle will automatically be in the middle of the screen so that's where the time will be displayed. 
 
+A common way of displaying the time is using the hours, minutes and seconds separated by a colon (:) symbol. So here is how the time 12 seconds and 33 minutes past 2 in the afternoon would be displayed:
 
+14:33:12
+
+We can make up a text string for the turtle to write, using the variables ```H```, ```M``` and ```S```, which contain the values of the hours minutes and seconds of the time now. So we might try adding this line at the end of the code, *after* the lines which set the variables:
+```
+t.write(H + ":" + M + ":" + S)
+```
+
+If you add this line, save your code then run it.
 
 But *there is a problem* - which is that the turtle ```write()``` function will only display a string of text, and the variables containing the hours, minutes and seconds are *numerical*. So, before we can use them for our digital clock, we need to convert these variables into string variables.
 
