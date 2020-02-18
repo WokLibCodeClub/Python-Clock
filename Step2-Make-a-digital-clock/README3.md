@@ -1,6 +1,6 @@
 If you've corrected your code properly the turtle ```write()``` line should look like this:
 ```
-
+t.write(str(H)+":"+str(M)+":"+str(S))
 ```
 and the turtle should write the time in the middle of the window.
 
