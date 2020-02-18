@@ -39,17 +39,17 @@ A common way of displaying the time is using the hours, minutes and seconds sepa
 
 14:33:12
 
-We can make up a text string for the turtle to write, using the variables ```H```, ```M``` and ```S```, which contain the values of the hours minutes and seconds of the time now. So we might try adding this line at the end of the code, *after* the lines which set the variables:
+We can make up a text string for the turtle to write, using the variables ```H```, ```M``` and ```S```, which contain the values of the hours, minutes and seconds of the time now. So we might try adding this line at the end of the code, *after* the lines which set the variables:
 ```
 t.write(H + ":" + M + ":" + S)
 ```
 
-If you add this line, save your code then run it.
+Add this line, save your code then run it.
 
-But *there is a problem* - which is that the turtle ```write()``` function will only display a string of text, and the variables containing the hours, minutes and seconds are *numerical*. So, before we can use them for our digital clock, we need to convert these variables into string variables.
-
+Oh, no! It gave an error. This is because we have tried to mix text (the colon symbols) with variables which are *numerical*. Just like the ```print()``` function you can't do this. What we need to do is convert the numerical variables into strings.
+ 
 ## Do you remember how to do this?
 
-Try and work it out before looking at the answer.
+Try and work it out, and correct your code, before looking at the answer.
 
 [Go to answer](README2.md)
