@@ -59,7 +59,7 @@ Run your code and see if your clock hands are in the right place.
 
 ### Stop the clock flickering
 
-You might find the clock hands are flickering as they move - this is because Python is trying to redraw all the turtles many times a second. One way to stop this is to add this line of code just before the ```while True:``` loop:
+You might find the second hand flickering as it moves - this is because Python is trying to redraw all the turtles many times a second. One way to stop this is to add this line of code just before the ```while True:``` loop:
 ```
 tracer(0)
 ```
@@ -69,6 +69,8 @@ update()
 ```
 
 With these extra lines Python will only redraw the turtles when it has to, so it should stop the flickering.
+
+However, you might now see that the second hand is hidden beneath the other hands. If this is the case you need to move the lines of code where the second hand turtle is created to below the code where the other hand turtles are created. This should ensure the second hand gets drawn after the minute and hour hands.
 
 ### Draw the hands in the order you want
 
@@ -83,3 +85,5 @@ second_hand.shape("second hand")
 ```
 
 and move it so it is *after* the code which creates and defines the hour_hand and minute_hand turtles. That will result in the second hand being drawn *after* the minute and hour hands, so it will appear on the top.
+
+[Continue to Step 7 - Customising the clock background](../Step7-Custom-clock-background)
