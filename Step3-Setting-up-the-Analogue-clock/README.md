@@ -1,6 +1,6 @@
 # Setting up the Analogue clock
 
-It's best to start a new .py file for the analogue clock to avoid confusion with the code for the digital clock. Start a New File and Save As **analogue-clock.py**
+It's best to start a new .py file for the analogue clock to avoid confusion with the code for the digital clock. Start a New File and Save As **analogue-clock.py** (or any other name you like).
 
 At the top of the file we need to import the same modules as for the digital clock, so **copy all the import lines** in from the digital clock code.
 
