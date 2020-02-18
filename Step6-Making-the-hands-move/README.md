@@ -50,7 +50,7 @@ Try and work this out using the same logic as for the minute hand - how many deg
 Second, we need *another* formula for **how many seconds have passed since the time was 12 o'clock**.
 This time we need to use all three variables ```H```, ```M``` and ```S```.
 
-Thirdly, we multiply the two formulas together to set the heading for the hour hand. Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the minute hand.
+Third, we multiply the two formulas together to set the heading for the hour hand. Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the minute hand.
 ```
 hour_hand.setheading(****your formula for the hour hand in here***)
 ```
@@ -85,5 +85,7 @@ second_hand.shape("second hand")
 ```
 
 and move it so it is *after* the code which creates and defines the hour_hand and minute_hand turtles. That will result in the second hand being drawn *after* the minute and hour hands, so it will appear on the top.
+
+Hooray - you now have a functioning clock! Congratulations!
 
 [Continue to Step 7 - Customising the clock background](../Step7-Custom-clock-background)
