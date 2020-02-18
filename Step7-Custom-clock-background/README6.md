@@ -1,4 +1,4 @@
-## 3. Draw the numbers
+## 4. Draw the numbers
 
 Our clock is almost complete. The only remaining task is to draw the numbers.
 
