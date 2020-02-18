@@ -26,7 +26,7 @@ hour_hand.shape("hour hand")
 
 **IF YOU COPY THIS CODE** - make sure you add in your coordinates for the hour hand before you try to run it.
 
-If you want to check what your hour hand looks like without seeing the minute hand you can temporarily hide the minute hand turtle by adding the code ```minute_hand.hideturtle()``. Take this line out again afterwards.
+If you want to check what your hour hand looks like without seeing the minute hand you can temporarily hide the minute hand turtle by adding the code ```minute_hand.hideturtle()```. Take this line out again afterwards.
 
 [Continue to Step 6 - Making the minute and hour hands move](../Step6-Making-the-hands-move)
 
