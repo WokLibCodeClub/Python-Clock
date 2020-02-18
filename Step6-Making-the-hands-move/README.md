@@ -22,7 +22,7 @@ Go [here](README2.md) for a hint.
 
 The second step is to get the minute hand to point in the right direction depending on what the current time is.
 
-In the ```while True:``` loop we already put in the code to get the time now, and put the hours in a variable called ```H```, the minutes in a variable called ```M``` and the seconds in a variable called ```S```. We put in a formula for the second hand to work out where it should point.
+In the ```while True:``` loop we already put in the code to get the time now, and put the hours in a variable called ```H```, the minutes in a variable called ```M``` and the seconds in a variable called ```S```. We put in a formula for the second hand to work out where it should point. Now we need to work out a formula for the minute hand.
 
 The minute hand starts pointing towards the 12 at the beginning of the hour. So we need *another* formula for Python to calculate how many seconds have passed since the beginning of the hour. Here are some facts we need to use:
 
