@@ -26,7 +26,7 @@ tick_thick = ? # the fraction of the circle radius to use for the tick thickness
 tick_col = *** # choose your preferred colour for the ticks - don't forget the quote marks
 num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds positions
 
-grid_turtle.pensize(pen_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
+grid_turtle.pensize(tick_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
 grid_turtle.pencolor(tick_col) # this sets the turtle's colour to your choice
 grid_turtle.home() # this sends the turtle to the middle of the clock
 grid_turtle.setheading(0) # this makes sure the turtle is pointing up
