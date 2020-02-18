@@ -57,4 +57,4 @@ Save and run the code. Hopefully there's now a tick at the top of the clock. You
 
 [Continue to next section *Draw ticks at all the seconds positions*](README4.md)
 
-[Go back to previous page](README.md)
+[Go back to previous page](README7.md)
