@@ -46,7 +46,7 @@ t.write(H + ":" + M + ":" + S)
 
 Add this line, save your code then run it.
 
-Oh, no! It gave an error. This is because we have tried to mix text (the colon symbols) with variables which are *numerical*. Just like the ```print()``` function you can't do this. What we need to do is convert the numerical variables into strings.
+Oh, no! It gave an error. This is because we have tried to mix text (the colon symbols) with variables which are *numerical*. Just like the ```print()``` function you can't do this with a turtle ```write()``` function. What we need to do is convert the numerical variables into strings.
  
 ## Do you remember how to do this?
 
