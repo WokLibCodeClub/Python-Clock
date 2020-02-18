@@ -23,6 +23,6 @@ Rerun your code and you should now see that the hands are the right size for the
 
 To test this is working try changing the value of ```clock_radius``` at the top of your code. Do the circle and the hands change size together?
 
-[Continue to *3. Draw ticks at all the seconds positions*](README2.md)
+[Continue to *3. Draw tick marks round the outside*](README2.md)
 
 [Go back to previous page](README.md)
