@@ -2,8 +2,9 @@
 
 Hopefully you've now got one short tick at the 12 o'clock position. But we want **60** ticks this size. You probably realise this is going to need a loop - in fact it's a **repeat 60 times** loop.
 
-At this point we need to make a very slight change to the size of the circle around the clock. If the thickness of the circle is large the circle will obscure part of the tick marks, so we will make the circle slightly bigger to avoid this problem. **Change** the line of code which draws the circle to this:
+At this point we need to make two slight changes to the circle code. If the thickness of the circle is large the circle will obscure part of the tick marks, so we will make the circle slightly bigger to avoid this problem. Because we make the circle bigger we also need to change the turtle's starting position. **Change** two of the lines of code which draws the circle to this:
 ```
+grid_turtle.goto(clock_radius + circle_thick*clock_radius/2, 0)
 grid_turtle.circle(clock_radius + circle_thick*clock_radius/2)
 ```
 
@@ -43,11 +44,11 @@ Note how this line is *indented*. All the other lines of code *inside* the loop 
 
 **BUT** there's another question mark inside the brackets. How many degrees will the turtle have to turn between one tick and the next?
 
-You can get Python to work this out using a formula. Think which variable contains the number of ticks we want, think how many degrees there are in a circle, and compose a formula to go in the brackets which will use these two values.
+You can get Python to work this out using a formula. Think which variable contains the number of ticks we want, think how many degrees there are in a circle, and compose a formula to go in the brackets which will use these two values and calculate how many degrees the turtle should turn between each tick.
 
-After the command to turn the turtle right you can use the same five lines of code you've already written to draw the ticks, but **remember to indent it**.
+After the command to turn the turtle right you can use the same five lines of code you've already written to draw the ticks, but **remember to indent them**.
 
-
+With luck you now have 60 short ticks around the outside of the clock. Experiment with the parameters to get them looking as you want. Then we can work on drawing the medium ticks and the long ticks.
 
 
 [Continue to next section *Draw all the different size ticks*](README5.md)
