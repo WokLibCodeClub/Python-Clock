@@ -1,4 +1,4 @@
-## 2. Draw tick marks round the outside
+## 3. Draw tick marks round the outside
 
 The ```blank_clock.gif``` image we used before for the clock background had three different type of tick marks - long ticks at 12, 3, 6, and 9 positions; medium length ticks at all the other numbers; and short ticks at all the seconds positions. (The different types of tick may also have slightly different thicknesses.)
 
