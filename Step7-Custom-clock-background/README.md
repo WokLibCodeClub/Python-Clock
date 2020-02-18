@@ -43,7 +43,7 @@ grid_turtle.hideturtle()
 grid_turtle.penup()
 ```
 
-Since we are going to create our own clock background we should delete the existing turtle background:
+Since we are going to create our own clock background we should delete the existing screen background:
 ### **DELETE THESE LINES:**
 ```
 clock_image = "blank_clock.gif"
