@@ -85,6 +85,8 @@ grid_turtle.circle(clock_radius)
 grid_turtle.penup()
 ```
 
-Run the code - you should now see a circle around the clock, and the hands moving inside it. The hands may be a bit small, but don't worry about that - we'll fix it in the next step. Adjust the parameters to get the circle just right.
+Run the code - you should now see a circle around the clock, and the hands moving inside it. 
+
+The hands may be a bit small, but don't worry about that - we'll fix it in the next step. Adjust the circle parameters to get the circle just right.
 
 [Continue to *2. Scale the clock hands to the size of clock*](README7.md)
