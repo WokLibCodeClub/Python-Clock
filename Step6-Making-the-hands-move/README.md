@@ -59,7 +59,7 @@ Run your code and see if your clock hands are in the right place.
 
 ### Stop the clock flickering
 
-You might find the second hand flickering as it moves - this is because Python is trying to redraw all the turtles many times a second. One way to stop this is to add this line of code just before the ```while True:``` loop:
+You might find the second hand flickering as it moves - this is because Python is trying to redraw all the turtles many times a second. One way to stop this is to add this line of code just *before* the ```while True:``` loop:
 ```
 tracer(0)
 ```
