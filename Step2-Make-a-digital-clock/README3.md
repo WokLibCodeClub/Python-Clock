@@ -2,7 +2,7 @@ If you've corrected your code properly the turtle ```write()``` line should look
 ```
 t.write(str(H)+":"+str(M)+":"+str(S))
 ```
-and the turtle should write the time in the middle of the window.
+and when you run your code the turtle should write the time in the middle of the window.
 
 Is the display of the time very small? We can make it bigger by adding a ```font``` parameter in the ```write()``` function. If we want to use the font Arial and have the size 96 and use normal text (instead of bold or italic) we would change the ```write()``` function to this:
 ```
