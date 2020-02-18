@@ -21,8 +21,8 @@ Now we'll use our drawing turtle to draw one tick at the 12 o'clock position. He
 Add this code *after* the code for drawing the circle.
 
 ```
-tick_len = ? # the fraction of the circle radius to use for the tick length. You could try 0.1 to start with.
-tick_thick = ? # the fraction of the circle radius to use for the tick thickness. You could try 0.01 to start with.
+tick_len = ? # the fraction of the circle radius to use for the tick length. You could try 0.05 to start with.
+tick_thick = ? # the fraction of the circle radius to use for the tick thickness. You could try 0.008 to start with.
 tick_col = *** # choose your preferred colour for the ticks - don't forget the quote marks
 num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds positions
 
