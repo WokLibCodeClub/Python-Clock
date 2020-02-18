@@ -1,4 +1,8 @@
-Oh dear, when the turtle writes the new time it writes it over the top of the previous time. Luckily we can clear turtle ```t```, including the old time, from the screen each time we want to write a new time. We do this using the function ```t.clear()```. It doesn't need any values in the brackets. Add this function to the end of the ```while True:``` loop and test your code again.
+Oh dear, when the turtle writes the new time it writes it over the top of the previous time. Luckily we can clear turtle ```t```, including the old time, from the screen each time we want to write a new time. We do this using the function
+```
+t.clear()
+```
+It doesn't need any values in the brackets. Add this function to the end of the ```while True:``` loop and test your code again.
 
 There is one more thing which we should change to make a good digital clock. When the clock ticks over to the next minute the number of seconds is less than 10 so only uses a single digit. This makes all the other numbers shift over.
 
@@ -10,7 +14,11 @@ The finished write function will look like this:
             font=("Arial", 96, "normal"), align = "center")
 ```
 
-To change the colour of the text you need to change the colour of the turtle. If you wanted the text to be red, for example, you would do this by adding the code ```t.color("red")``` just after you have created the turtle called ```t```.
+If you wanted a different colour text you could change the colour of the turtle. If you wanted the text to be red, for example, you would do this by adding the code 
+```
+t.color("red")
+```
+This line needs to go with the code that *creates* the turtle - near the beginning of the code.
 
 We can use a lot of the same code in creating an Analogue clock.
 
