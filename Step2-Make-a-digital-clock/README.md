@@ -11,7 +11,7 @@ We will also be using the Python ```sleep()``` function which is in the ```time`
 ```
 from time import sleep
 ```
-For the digital clock we will use the turtle ```write()``` function to display the time in the middle of the turtle window. To do this we need to create a turtle object. This code creates a turtle called ```t``` but you can call your turtle whatever you like:
+For the digital clock we will use the turtle ```write()``` function to display the time in the middle of the turtle window. To do this we need to create a turtle object. This code creates a turtle called ```t``` but you can call your turtle whatever you like. Put this line near the top of the code, just underneath all the ```import``` statements:
 ```
 t = Turtle()
 ```
