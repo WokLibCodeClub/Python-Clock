@@ -45,7 +45,7 @@ When you have worked out the values run the code. You might find the numbers are
     grid_turtle.write(?, font=("Comic Sans MS", int(clock_radius/font_factor), "normal"), align = "center" )
 
 ```
-In this example the font has been changed to Comic Sans, and the font size has been tied to the clock radius - so if you make the clock bigger the font will get bigger as well. If you find the numbers are the wrong size you can change the value 5 in this line of code to get your preferred size.
+In this example the font has been changed to Comic Sans, and the font size has been tied to the clock radius - so if you make the clock bigger the font will get bigger as well.
 
 **This code will now generate an error**, because we have introduced a new variable ```font_factor``` before telling Python what its value is. So we need to add a line of code outside the loop to define the variable  ```font_factor```. Add this line just after the code the draw the ticks:
 ```
