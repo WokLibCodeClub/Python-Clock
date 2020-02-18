@@ -19,6 +19,6 @@ These lines will scale the second hand turtle by a factor ```clock_radius/275```
 
 Now add the same two lines in the same place for the minute and hour hand turtles, but remember to change the name ```second_hand``` to the name of the turtle for the minute or hour hand.
 
-[Continue to *3. Draw ticks at all the seconds positions*](README4.md)
+[Continue to *3. Draw ticks at all the seconds positions*](README2.md)
 
 [Go back to previous page](README.md)
