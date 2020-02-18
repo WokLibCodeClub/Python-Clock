@@ -48,6 +48,8 @@ You can get Python to work this out using a formula. Think which variable contai
 
 After the command to turn the turtle right you can use the same five lines of code you've already written to draw the ticks, but **remember to indent them**.
 
+Save your code and run it.
+
 With luck you now have 60 short ticks around the outside of the clock. Experiment with the parameters to get them looking as you want. Then we can work on drawing the medium ticks and the long ticks.
 
 
