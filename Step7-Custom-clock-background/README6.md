@@ -40,7 +40,7 @@ Here is the code to go inside the loop **which must be indented**. You have to w
     grid_turtle.goto(0,0)
 ```
 
-When you have worked out the values run the code. You might find the numbers are much too small. We can change the size, and also the font, and the alignment, by rewriting the third line (putting your formula instead of the question mark)
+When you have worked out what goes in place of the question marks run the code. You might find the numbers are much too small. We can change the size, and also the font, and the alignment, by rewriting the third line (putting your formula instead of the question mark)
 ```
     grid_turtle.write(?, font=("Comic Sans MS", int(clock_radius/font_factor), "normal"), align = "center" )
 
