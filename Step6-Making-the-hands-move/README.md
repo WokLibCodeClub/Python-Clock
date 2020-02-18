@@ -33,7 +33,7 @@ Here are some facts we need to use for **how many seconds have passed since the 
 
 Can you work out the Python formula, using the variables ```M``` and ```S```, to calculate **how many seconds have passed since the minute hand pointed at the 12**?
 
-Then we multiply this formula by the formula you worked out for how many degrees the minute hand moves every second and we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code:
+Then we multiply this formula by the formula you worked out for how many degrees the minute hand moves every second and we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code below. Put this code underneat the code which sets the heading for the second hand:
 ```
 minute_hand.setheading(****your formula in here****)
 ```
