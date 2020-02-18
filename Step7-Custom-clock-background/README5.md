@@ -31,7 +31,7 @@ Now that we've put the tick drawing code inside a function the code will no long
 draw_ticks(?, ?, ?, ?)
 ```
 
-What goes in place of the question marks? Well, for the first question mark put whatever value you chose for the variable ```tick_len```; for the second question mark whatever value you chose for ```tick_thick```; for the third question mark put your chosen colour - *including quote marks*; and for the fourth question mark put the value of ```num_ticks```, which at the moment is 60.
+What goes in place of the question marks? Well, for the first question mark put whatever value you chose for the variable ```tick_len```; for the second question mark whatever value you chose for ```tick_thick```; for the third question mark put your chosen tick colour - *including quote marks*; and for the fourth question mark put the value of ```num_ticks```, which at the moment is 60.
 
 Save the code and run it. The clock should look exactly as it did before. The line we've just composed **calls** the function, and at the same time passes the chosen values of the variables to the function, which then draws the ticks.
 
