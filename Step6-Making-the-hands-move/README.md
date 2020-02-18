@@ -31,14 +31,12 @@ In the ```while True:``` loop we already put in the code to get the time now, an
 
 Can you work out the Python formula, using the variables ```M``` and ```S```, to calculate **how many seconds have passed since the minute hand pointed at the 12**?
 
-Go here for a hint.
-
 If we multiply this formula by the formula for how many degrees the minute hand moves every second we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code:
 ```
 minute_hand.setheading(****your formula in here****)
 ```
 
-Once you have got a possible formula put this line of code into the ```while True:``` loop, after the code to set the direction of the second hand and run your code. Is the minute hand pointing to the right place? Watch your clock for a while to see if the minute hand is slowly creeping round. Whenever the second hand points at 12 the minute hand should be pointing exactly at one of the minute marks.
+Once you think you have got the formula put this line of code into the ```while True:``` loop, after the code to set the direction of the second hand and run your code. Is the minute hand pointing to the right place? Watch your clock for a while to see if the minute hand is slowly creeping round. Whenever the second hand points at 12 the minute hand should be pointing exactly at one of the minute marks.
 
 ### Setting the direction for the hour hand to point
 
