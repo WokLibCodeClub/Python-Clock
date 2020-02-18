@@ -59,7 +59,7 @@ We can make the turtle draw a circle with the code ```grid_turtle.circle(******)
 
 We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used ```"red"``` and ```"black"``` in the code. Some of the other colours available are: ```"white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown"```. The turtle colour is set with ```grid_turtle.color(****)``` with the colour, *including quote marks*, inside the brackets.
 
-The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in the brackets. 
+The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in pixels in the brackets. 
 
 However, a smarter way to do this is to give the pen thickness as a fraction of the clock radius. Then if you make your clock bigger or smaller the thickness of the circle will change in proportion. 
 
@@ -85,6 +85,6 @@ grid_turtle.circle(clock_radius)
 grid_turtle.penup()
 ```
 
-Run the code - you should now see a circle around the clock, and the hands moving inside it. Adjust the parameters to get the circle just right.
+Run the code - you should now see a circle around the clock, and the hands moving inside it. The hands may be a bit small, but don't worry about that - we'll fix it in the next step. Adjust the parameters to get the circle just right.
 
-[Continue to *2. Draw all the different size tick marks round the outside*](README2.md)
+[Continue to *2. Scale the clock hands to the size of clock*](README7.md)
