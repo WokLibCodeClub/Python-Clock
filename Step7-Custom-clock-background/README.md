@@ -21,7 +21,7 @@ Click [here](SCREENSIZE.md) to see how to find out your screen size.
 
 The smaller number of the two screen size dimensions will give you the largest clock you can display on your screen. You probably need to limit the size to a bit less than this to leave room for the border and the Windows taskbar. On my screen the size is 1920 x 1080, so I would make my biggest clocksize 900.
 
-To set the clock size we will make a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if my clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For this example we'll make a clock 800 pixels across, so add this line just under the ```import``` lines:
+To set the clock size we will make a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if my clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For this example to make a clock 800 pixels across, we add this line just under the ```import``` lines:
 ```
 clock_radius = 400
 ```
@@ -35,7 +35,7 @@ This code will adjust the window size to fit the clock radius, so if we change t
 
 We will create a new turtle to do all the background drawing. In this example the turtle is called ```grid_turtle```. We don't actually want to see this turtle, only the results of the drawing, so we can hide the turtle. When the turtle is created we will set the pen to penup so the turtle won't start drawing until we tell it. Here are three lines of code to do these things:
 
-Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)```
+Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)``` or before the ```while True:``` loop if you didn't use the ```tracer(0)``` instruction.
 
 ```
 grid_turtle = Turtle()
@@ -57,7 +57,7 @@ To make sure the clock background appears **underneath** the clock hands we need
 
 We can make the turtle draw a circle with the code ```grid_turtle.circle(******)``` where we need to put the radius of the circle in pixels inside the brackets. Luckily we have a variable ```clock_radius``` which contains the radius of the clock, so we can use this variable in the ```circle()``` instruction.
 
-We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used "red" and "black" in the code. Some of the other colours available are: "white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown". The turtle colour is set with ```grid_turtle.color(****)``` with the colour, *including quote marks*, inside the brackets.
+We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used ```"red"``` and ```"black"``` in the code. Some of the other colours available are: ```"white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown"```. The turtle colour is set with ```grid_turtle.color(****)``` with the colour, *including quote marks*, inside the brackets.
 
 The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in the brackets. 
 
