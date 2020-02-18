@@ -47,6 +47,6 @@ Neat!
 
 Experiment with the lengths, thicknesses and colours of the types of ticks to get a really cool clock.
 
-[Continue to next section *Draw the numbers*](README6.md)
+[Continue to next section *4. Draw the numbers*](README6.md)
 
 [Go back to previous page](README4.md)
