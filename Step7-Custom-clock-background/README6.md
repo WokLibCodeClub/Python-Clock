@@ -53,7 +53,7 @@ font_factor = 6
 ```
 You can experiment with the value of font_factor if your text is too big or too small. Which way do you think you should change it to make the font bigger?
 
-BUT - the numbers are all too far up. We can correct this by altering the y coordinate of the turtle's location before and inside the loop. Again, it is smart to tie this shift to the clock radius to make it easy to adjust the clock size.
+BUT - the numbers are all too far up. We can correct this by altering the y coordinate of the turtle's starting location before and inside the loop. Again, it is smart to tie this shift to the clock radius to make it easy to adjust the clock size.
 
 Change the two lines that set the turtle position (one before the loop and one inside it) to:
 ```
