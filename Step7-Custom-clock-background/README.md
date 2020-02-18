@@ -11,7 +11,7 @@ What if we wanted a much bigger clock, or a clock with different style lettering
 
 ### Save your code with a new name
 
-If you have a properly working clock using the image background it would be a shame to risk losing that by changing the code to make a customised clock, so at this stage it would be a good idea to save the clock code with a new name - for example - **new-analogue-clock.py** and put all the new code for this step in the new file. That way you still have the code for the working clock in the old file.
+If you have a properly working clock using the image background it would be a shame to risk losing that by changing the code to make a customised clock, so at this stage it would be a good idea to save the clock code with a new name, using Save As - for example - **custom-analogue-clock.py**. If you do all your customising in the new file you will still have the code for the working clock in the old file.
 
 ### Set the clock size
 
