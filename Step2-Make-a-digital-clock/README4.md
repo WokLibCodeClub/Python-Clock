@@ -1,8 +1,10 @@
-Oh dear, when the turtle writes the new time it writes it over the top of the previous time. Luckily we can clear turtle ```t```, including the old time, from the screen each time we want to write a new time. We do this using the function
+Oh dear, when the turtle updates the time it writes the new time over the top of the previous time.
+
+To correct this we need to clear the text each time we update it. There is a turtle function called ```clear()``` which does this, so add this line as the top line in the ```while True:``` loop (indented):
+
+```python
+  t.clear()
 ```
-t.clear()
-```
-It doesn't need any values in the brackets. Add this function to the end of the ```while True:``` loop and test your code again.
 
 There is one more thing which we should change to make a good digital clock. When the clock ticks over to the next minute the number of seconds is less than 10 so only uses a single digit. This makes all the other numbers shift over.
 
