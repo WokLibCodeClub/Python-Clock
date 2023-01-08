@@ -40,9 +40,9 @@ Start the forever loop with this code:
 while True:
 ```
 
-Move your lines of code which find out the time, extract the hour, minutes and seconds to variables and display the time *below* this line and **INDENT ALL THESE LINES**  to show they are part of the loop.
+Move your lines of code which find out the time, extract the hour, minutes and seconds to variables and display the time *below* the ```while True:``` line and **INDENT ALL THESE LINES**  to show they are part of the loop.
 
-**Add one more line** to the end of the ```while True:``` loop:
+**Add one more line** to the end of the ```while True:``` loop (and don't forget to indent it):
 
 ```python
 sleep(1)
