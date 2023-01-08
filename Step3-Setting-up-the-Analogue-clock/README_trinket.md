@@ -4,13 +4,11 @@ There is a starter trinket project for the analogue clock, which you can find at
 
 - [trinket.io/python/9459a45b06](https://trinket.io/python/9459a45b06)
 
-## Making a turtle for the second hand
+We are going to use turtles for the clock hands but first we need a clock background. The starter project has a ready-made background included, but when you've created a working analogue clock you could try experimenting with writing code to create your own clock background.
 
-We are going to use turtles for the clock hands but first we need a clock background. The starter project has a ready-made background included, but when you've created an analogue clock you might try writing code to create your own background.
+When you are building up this project you might need to widen the trinket graphics window slightly to make sure you can see all of the clock background.
 
-When you are editing this code you might need to widen the graphics window slightly to make sure you can see all of the clock background.
-
-The lines of code included in the starter project:
+The lines of code included in the starter project are
 
 ```python
 s = Screen()
@@ -20,7 +18,9 @@ s.register_shape(clock_image)
 s.bgpic(clock_image)
 ```
 
-set up a turtle screen and specify its size as 410 pixels across by 410 pixels high. They also specify an image file to be used as the background.
+These lines set up a turtle screen and specify its size as 410 pixels across by 410 pixels high. They also specify an image file to be used as the background and set that file as the background image.
+
+## Making a turtle for the second hand
 
 First, we'll create a turtle to use as the clock's second hand and set its colour to red:
 
@@ -38,7 +38,7 @@ s.register_shape("second hand", ((0,-4), (0,-4), (0,140), (0, 140)))
 second_hand.shape("second hand")
 ```
 
-Each pair of numbers in brackets is an x coordinate and a y coordinate for a corner of the turtle shape. Save your code and run it. You should see a thin red line (which is the turtle) pointing to the number 3.
+Each pair of numbers in brackets is a pair of coordinates for a corner of the turtle shape. Save your code and run it. You should see a thin red line (which is the turtle) pointing to the number 3.
 
 ## Moving the second hand
 
@@ -50,7 +50,7 @@ second_hand.right(45)
 
 Save your code and run it. Hopefully you saw the second hand move round by 45 degrees, so it's now pointing between the 4 and 5.
 
-Delete the last line you just added.
+Delete the last line you just added as we don't need it.
 
 Now we're going to make a forever loop and get the second hand to move round the clock by turning it to the right a set number of degrees, then waiting one second. Here is the code:
 
