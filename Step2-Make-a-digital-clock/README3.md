@@ -14,7 +14,7 @@ t.write(str(H)+":"+str(M)+":"+str(S), font=("Arial", 96, "normal"))
 
 If you are coding using **trinket** you will find a size of 96 is a bit too big! A size of 60 will probably work better.
 
-With the bigger text you can read the figures easily enough, but the time goes off the edge of the screen. This is because the text in a ```write()``` function is set by default to **Left** alignment, which means the left edge of the text starts at the location of the turtle. It would be better if the alignment was **centred** so the centre of the text is at the location of the turtle. We can add an ```align``` parameter to the ```write()``` function:
+With the bigger text you can read the figures easily enough, but now the time goes off the edge of the screen. This is because the text in a ```write()``` function is set by default to **Left** alignment, which means the left edge of the text starts at the location of the turtle. It would be better if the alignment was **centred** so the centre of the text is at the location of the turtle. We can add an ```align``` parameter to the ```write()``` function:
 
 ```python
 t.write(str(H)+":"+str(M)+":"+str(S), font=("Arial", 96, "normal"), align = "center")
