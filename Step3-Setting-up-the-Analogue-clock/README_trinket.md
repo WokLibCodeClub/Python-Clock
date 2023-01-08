@@ -31,7 +31,7 @@ second_hand.color("red")
 
 Save your code and run it. You should see the clock background with a red arrow-shaped turtle in the middle of the clock pointing towards the 3.
 
-Unfortunately the arrow shape is not much good as a second hand - we need something longer and thinner. We can create our own shape for a turtle by specifying a set x and y coordinates. Use this code to make a long thin second hand shape:
+Unfortunately the arrow shape is not much good as a second hand - we need something longer and thinner. We can create our own shape for a turtle by specifying a set x and y coordinates. Use this code to make a long thin second hand shape to use for our second_hand turtle:
 
 ```python
 s.register_shape("second hand", ((0,-4), (0,-4), (0,140), (0, 140)))
