@@ -6,7 +6,7 @@ To correct this we need to clear the text each time we update it. There is a tur
   t.clear()
 ```
 
-There is one more thing which we should change to make a good digital clock. When the clock ticks over to the next minute the number of seconds is less than 10 and displays using only a single digit. This makes all the other numbers shift over.
+There is one more thing which we should change to make a good digital clock. When the clock ticks over to the next minute the number of seconds is less than 10 and displays using only a single digit. This makes all the other numbers shift over. (The same thing happens with the minutes when we click over to a new hour or the hours when we click over to a new day.)
 
 We need a way to fill the number of seconds with an extra zero, so that the number of seconds shows as 01, 02, 03 instead of 1, 2, 3. We can do this with a string method called ```zfill()```. Add the code ```.zfill(2)``` to the end of the three ```str()``` parts of the ```write()``` command. This will add additional zeros to make sure the number of seconds or minutes or hours always shows with two digits:
 
