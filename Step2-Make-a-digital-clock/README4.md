@@ -15,7 +15,7 @@ We need a way to **fill** the number of seconds/minutes/hours with an extra zero
             font=("Arial", 96, "normal"), align = "center")
 ```
 
-This line of code has become quite long and might run off the edge of your editor. Luckily where Python code has a comma you can type *Enter* to start a new line straight after the comman and the code will still run as normal.
+This line of code has become quite long and might run off the edge of your editor. Luckily where Python code has a comma you can hit the *Enter* key to start a new line straight after the comman and the code will still run as normal.
 
 If you would like a different colour text you could change the *colour* of the turtle. If you wanted the text to be red, for example, you would do this by adding the code
 
