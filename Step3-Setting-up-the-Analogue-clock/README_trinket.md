@@ -1,12 +1,8 @@
-# Setting up the Analogue clock
+# Setting up the Analogue clock using trinket
 
-If you are using trinket for this project go to the [special trinket instructions](README_trinket.md)
+There is a starter trinket project for the analogue clock, which you can find at
 
-If you are coding using a standalone Python installation then keep reading here:
-
-It's best to start a new .py file for the analogue clock to avoid confusion with the code for the digital clock. Start a New File and Save As **analogue-clock.py** (or any other name you like).
-
-At the top of the file we need to import the same modules as for the digital clock, so **copy all the import lines** in from the digital clock code.
+- [trinket.io/python/9459a45b06](https://trinket.io/python/9459a45b06)
 
 We are going to use turtles for the clock hands but first we need a clock background. For this step we will use a ready-made background (but at the end of the project you should try writing code to create your own background).
 
