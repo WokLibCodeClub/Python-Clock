@@ -1,4 +1,4 @@
-Oh dear, when the turtle updates the time it writes the new time over the top of the previous time.
+Oh dear, when the turtle updates the time it writes the new time over the top of the previous time and creates a horrible mess.
 
 To correct this we need to clear the text each time we update it. There is a turtle function called ```clear()``` which does this, so add this line just before the ```t.write()``` line in the ```while True:``` loop:
 
