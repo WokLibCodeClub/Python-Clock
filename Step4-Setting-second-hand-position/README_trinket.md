@@ -93,13 +93,11 @@ When you have sorted this out, run the code several times and check the number p
 
 If the second hand doesn't point in the right direction you need to adjust your code and try again. Don't worry if you the hand position isn't right first time - all coders have to try things lots of times until they get the code just right.
 
-
-
 ### Note about indents
 
 When you put code inside a loop it's essential to **_indent_** all the lines of code inside the loop. With all the main Python editors you can indent lots of lines of code all in one go - select all the lines you want to indent, then press the TAB key once. You should see all the lines indent together.
 
-Run your code and see if the second hand moves round properly.
+Now you've got the second hand moving properly it's time to add the minute and hour hands to the clock.
 
 [Continue to Step 5 - Adding the minute and hour hands](../Step5-Adding-minute-and-hour-hands/README_trinket.md)
 
