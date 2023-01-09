@@ -1,4 +1,4 @@
-# Making the minute and hour hands
+# Making the minute and hour hands (trinket)
 
 To make the minute and hour hands we will need to design shapes for these hands, using x and y coordinates to specify the corners.
 
