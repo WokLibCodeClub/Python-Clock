@@ -34,7 +34,7 @@ Save your code and run it. You should see the clock background with a red arrow-
 Unfortunately the arrow shape is not much good as a second hand - we need something longer and thinner. We can create our own shape for a turtle by specifying a set x and y coordinates. Use this code to make a long thin shape to use for our second_hand turtle:
 
 ```python
-s.register_shape("second hand", ((0,-4), (0,-4), (0,140), (0, 140)))
+s.register_shape("second hand", ((0,-7), (0,-7), (0,175), (0, 175)))
 second_hand.shape("second hand")
 ```
 
@@ -60,7 +60,7 @@ while True:
     sleep(1)
 ```
 
-**THIS CODE WON'T WORK.** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
+**DON'T JUST COPY THIS CODE, BECAUSE WON'T WORK.** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
 
 Hint: You know how many degrees there are in a circle. You know how many seconds there are in a minute. So, you can calculate how many degrees make one second.
 
