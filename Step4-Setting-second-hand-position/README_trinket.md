@@ -71,7 +71,7 @@ In the ```while True:``` loop delete the line for moving the second_hand turtle 
 
 Instead, copy in the code from the Digital Clock project which gets the time now and puts the hours, minutes and seconds into variables called H, M and S.
 
-After these lines of code add a line which will print the value of the variable S in the text window, then add the line which will set the heading for the second_hand turtle. The whole loop will look like this:
+After these lines of code add a line which will print the value of the variable S in the text result window, then add the line which will set the heading for the second_hand turtle. The whole loop will look like this:
 
 ```python
 while True:
@@ -89,7 +89,7 @@ while True:
 
 **BUT** you have to work out what to put in the setheading line in place of the question mark.
 
-When you have sorted this out, run the code several times and check the number printed in the Python shell (which is the value of S) and the position of the second hand. Do they agree?
+When you have sorted this out, run the code several times and check the number printed in the text result window (which is the value of S) and the position of the second hand. Do they agree?
 
 If the second hand doesn't point in the right direction you need to adjust your code and try again. Don't worry if you the hand position isn't right first time - all coders have to try things lots of times until they get the code just right.
 
