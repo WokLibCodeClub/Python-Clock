@@ -48,7 +48,7 @@ To get the second hand to turn to the right and point to a different number we u
 second_hand.right(45)
 ```
 
-Save your code and run it. Hopefully you saw the second hand move round by 45 degrees, so it's now pointing between the 4 and 5.
+Save your code and run it. Hopefully you saw the second hand move round by 45°, so it's now pointing between the 4 and 5.
 
 Delete the last line you just added as we don't need it.
 
