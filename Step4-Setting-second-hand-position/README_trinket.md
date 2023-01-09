@@ -1,4 +1,4 @@
-# Setting the position of the second hand
+# Setting the position of the second hand (trinket)
 
 You've just calculated how many degrees the second hand turns for each second of time.
 
@@ -104,6 +104,6 @@ When you put code inside a loop it's essential to **_indent_** all the lines of 
 
 Run your code and see if the second hand moves round properly.
 
-[Continue to Step 5 - Adding the minute and hour hands](../Step5-Adding-minute-and-hour-hands)
+[Continue to Step 5 - Adding the minute and hour hands](../Step5-Adding-minute-and-hour-hands/README_trinket.md)
 
 
