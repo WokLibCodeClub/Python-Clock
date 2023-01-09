@@ -26,14 +26,14 @@ turtle_angle = 90 - clock_angle
 
 Notice that this formula will sometimes give a negative answer. That's ok, because Python turtles don't mind if they are asked to point in a negative direction. A negative angle means you start at zero and go the opposite direction to normal. If you start at 0° and turn forwards by 90°, you can see that is exactly the same as starting at 0° and going in the opposite direction to -270°.
 
-We can put this into a Python function like this:
+We can put this formula into a Python function like this:
 
 ```python
 def clk_to_turt(ang):
     return 90 - ang
 ```
 
-This function should be put in the code before the ```while True``` loop.
+This function should be put into your code just *before* the ```while True:``` loop.
 
 When we call this function we put a number of degrees inside the brackets - this will be the clock angle. The function then sends back the angle converted to a turtle angle.
 
@@ -53,7 +53,7 @@ t.setheading(clk_to_turt(ca))
 
 where the turtle is called ```t``` and ```ca``` is the angle in clock degrees. The function will convert clock degrees to turtle degrees and the ```setheading``` function will point the turtle in the desired direction.
 
-So if we want our turtle called ```second_hand``` to point towards the 3 on the clock we'd calculate that we need a clock angle of 90, and use the code
+So if we want our turtle called ```second_hand``` to point towards 3 o'clock we'd calculate that we need a clock angle of 90, and use the code
 
 ```python
 second_hand.setheading(clk_to_turt(90))
