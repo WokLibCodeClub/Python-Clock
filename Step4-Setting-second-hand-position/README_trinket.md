@@ -71,7 +71,7 @@ In the ```while True:``` loop delete the line for moving the second_hand turtle 
 
 Instead, copy in the code from the Digital Clock project which gets the time now and puts the hours, minutes and seconds into variables called H, M and S.
 
-After these lines of code add the line which will set the heading for the second_hand turtle. The whole loop will look like this:
+After these lines of code add a line which will print the value of the variable S in the text window, then add the line which will set the heading for the second_hand turtle. The whole loop will look like this:
 
 ```python
 while True:
