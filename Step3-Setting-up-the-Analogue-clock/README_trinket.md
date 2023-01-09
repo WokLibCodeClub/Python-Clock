@@ -60,7 +60,7 @@ while True:
     sleep(1)
 ```
 
-**DON'T JUST COPY THIS CODE, BECAUSE WON'T WORK.** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
+**DON'T JUST COPY THIS CODE, BECAUSE IT WON'T WORK!** Python won't understand the question mark. **_You_** need to calculate the number of degrees to put inside the brackets instead of the question mark so that the second hand will move exactly one unit each second, so it takes exactly one minute to go right round the clock.
 
 Hint: You know how many degrees there are in a circle. You know how many seconds there are in a minute. So, you can calculate how many degrees make one second.
 
