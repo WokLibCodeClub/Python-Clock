@@ -39,7 +39,7 @@ When we call this function we put a number of degrees inside the brackets - this
 
 </details>
 
-## Setting the correct angle for the second hand
+## Calculating the correct angle for the second hand
 
 First we work out what the angle is in clock degrees counting clockwise round from the 12 o'clock position, then call the ```clk_to_turt()``` function to convert this to turtle degrees.
 
@@ -65,7 +65,7 @@ For this we need another simple formula. Say we get the time now, and it says th
 
 Well we know that the second hand moves 6° every second, so the clock angle for 26 seconds will be 26 times 6 degrees. So whatever the seconds count is we multiply it by 6 to get the clock angle.
 
-
+## Code for pointing second hand in the correct direction
 
 For the time being delete the loop from the Step 3 code and instead put this into your code (you should recognise this from Step 1).
 
