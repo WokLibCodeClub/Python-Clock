@@ -87,7 +87,7 @@ while True:
   sleep(1)
 ```
 
-**BUT** you have to work out what to put in the setheading line in place of the question mark.
+**BUT** *you* have to work out what to put in the setheading line in place of the question mark.
 
 When you have sorted this out, run the code several times and check the number printed in the text result window (which is the value of S) and the position of the second hand. Do they agree?
 
