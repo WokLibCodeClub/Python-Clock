@@ -57,6 +57,7 @@ Now we're going to make a forever loop and get the second hand to move round the
 ```python
 while True:
     second_hand.right(?)
+    
     sleep(1)
 ```
 
