@@ -4,6 +4,18 @@ You've just calculated how many degrees the second hand turns for each second of
 
 The next step is to use Python to get the time (just like we did with the digital clock) then set the second hand to point to exactly the right position on the clock.
 
+## Different systems for measuring angles
+
+At this point we have to introduce a small problem, and it explains why this project is a tiny bit more complicated to code using trinket than with a standalone Python installation.
+
+We will calculate the angles for the clock's hands using a system like compass bearings in Geography - when the hand is pointing straight up (or North) it is at 0 degrees, when it is pointing to the 3 (East) it is at 90 degrees, to the 6 (South) is 180 degrees and to the 9 (West) is 270 degrees. This means that as the hand goes round the clock the angle is always getting *bigger* (until it reaches 359 degrees, then it goes back to 0 degrees).
+
+Unfortunately in trinket the angles for turtles are calculated using a **different** system: when the turtle is pointing East it is at 0 degrees, when it is North it is at 90 degrees, West is 180 degrees, and South is 270 degrees. So if a trinket turtle is turning round like a clock hand the angle is always getting *smaller*.
+
+Luckily we can easily convert one system to another.
+
+## Setting the right angle for the second hand
+
 The code for telling a turtle which way to point is ```t.setheading(x)``` where the turtle is called ```t``` and we want it to point in a direction of ```x``` degrees counting clockwise round from the 12 o'clock position. So if we want our turtle called second_hand to point towards the 3 on the clock we'd use the code ```second_hand.setheading(90)```.
 
 For the time being delete the loop from the Step 3 code and instead put this into your code (you should recognise this from Step 1). 
