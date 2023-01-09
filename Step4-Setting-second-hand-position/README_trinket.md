@@ -97,7 +97,7 @@ When you are sure your second hand is moving correctly you can delete the ```pri
 
 ### Note about indents
 
-When you put code inside a loop it's essential to **_indent_** all the lines of code inside the loop. With all the main Python editors you can indent lots of lines of code all in one go - select all the lines you want to indent, then press the TAB key once. You should see all the lines indent together.
+When you put code inside a loop it's essential to **_indent_** all the lines of code inside the loop. In trinket you can indent lots of lines of code all in one go - select all the lines you want to indent, then press the TAB key once. You should see all the lines indent together.
 
 Now you've got the second hand moving properly it's time to add the minute and hour hands to the clock.
 
