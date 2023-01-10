@@ -5,13 +5,13 @@ To make the minute and hour hands we will need to design shapes for these hands,
 Here is code to make a minute hand, using a turtle which we will call ```minute_hand``` and a shape called "minute hand". Add this code just after the code which creates the second hand turtle:
 
 ```python
-screen.register_shape("minute hand", ((-20,-11), (20,-11), (25,160), (-25, 160)))
+s.register_shape("minute hand", ((-20,-11), (20,-11), (25,160), (-25, 160)))
 minute_hand = Turtle()
 minute_hand.color("black")
 minute_hand.shape("minute hand")
 ```
 
-If you save and run your code you should see that your clock has a moving second hand and a rather **ugly**, oversized minute hand.
+If you save and run your code you should see that your clock has a moving second hand and a rather **ugly**, oversized minute hand pointing to 3 o'clock.
 
 Change the coordinates in the ```screen.register_shape()``` line of code to make a better shape. To understand what the coordinates mean look at this picture of the clock with the x and y coordinates of the minute hand marked. You need to select x and y values of corner points to make a thinner, more elegant minute hand.
 
