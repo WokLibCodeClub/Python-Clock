@@ -33,9 +33,9 @@ def clk_to_turt(ang):
     return 90 - ang
 ```
 
-This function should be put into your code just *before* the ```while True:``` loop.
+This function should be put into your code just *before* the ```while True:``` loop. (By the way, the name of the function should really be ```clock_angle_to_turtle_angle()``` but that's a lot of typing, so I just shortened it to ```clk_to_turt()```!)
 
-When we call this function we put a number of degrees inside the brackets - this will be the clock angle. The function then sends back the angle converted to a turtle angle.
+When we *call* this function we put a number of degrees inside the brackets - this will be the clock angle. The function then sends back the angle converted to a turtle angle.
 
 </details>
 
@@ -51,13 +51,15 @@ We can combine this setheading command with our conversion function in a single 
 t.setheading(clk_to_turt(ca))
 ```
 
-where the turtle is called ```t``` and ```ca``` is the angle in clock degrees. The function will convert clock degrees to turtle degrees and the ```setheading``` function will point the turtle in the desired direction.
+where the turtle is called ```t``` and ```ca``` is the angle in clock degrees. The function will convert clock degrees to turtle degrees and the ```setheading``` function will point the turtle in the desired direction. **BUT DON'T PUT THIS LINE IN YOUR CODE - IT IS JUST FOR AN EXAMPLE.**
 
 So if we want our turtle called ```second_hand``` to point towards 3 o'clock we'd calculate that we need a clock angle of 90, and use the code
 
 ```python
 second_hand.setheading(clk_to_turt(90))
 ```
+
+**AGAIN, THIS LINE IS JUST AN EXAMPLE - DON'T PUT IT IN YOUR PROJECT.**
 
 But *what is the correct clock angle for where we want the second hand to point?*
 
@@ -67,9 +69,9 @@ Well we know that the second hand moves 6° every second, so the clock angle for
 
 ## Code for pointing second hand in the correct direction
 
-In the ```while True:``` loop delete the line for moving the second_hand turtle right by 6°
+In the ```while True:``` loop delete the line which turns the second_hand turtle right by 6°.
 
-Instead, copy in the code from the Digital Clock project which gets the time now and puts the hours, minutes and seconds into variables called H, M and S.
+In its place, copy in the lines of code from the Digital Clock project which get the time now and put the hours, minutes and seconds into variables called H, M and S.
 
 After these lines of code add a line which will print the value of the variable S in the text result window, then add the line which will set the heading for the second_hand turtle. The whole loop will look like this:
 
