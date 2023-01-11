@@ -76,27 +76,19 @@ Try and work this out using the same logic as for the minute hand - how many deg
 Second, we need *another* formula for **how many seconds have passed since the time was 12 o'clock**.
 This time we need to use all three variables ```H```, ```M``` and ```S```.
 
-Third, we multiply the two formulas together to set the heading for the hour hand. Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the minute hand.
-```
-hour_hand.setheading(****your formula for the hour hand in here***)
+Third, we multiply the two formulas together to get the clock angle for the hour hand. 
+
+Lastly, we use the function ```clk_to_turt()``` to convert clock angle to turtle angle.
+
+Once you have a formula put it into this line of code and place the code inside the  ```while True:``` loop, after the code to set the direction of the minute hand.
+
+```python
+hour_hand.setheading(clk_to_turt(****your formula for the hour hand in here***))
 ```
 
 Run your code and see if your clock hands are in the right place.
 
-### Stop the clock flickering
-
-You might find the second hand flickering as it moves - this is because Python is trying to redraw all the turtles many times a second. One way to stop this is to add this line of code just *before* the ```while True:``` loop:
-```
-tracer(0)
-```
-and this line of code as the last line *inside* the ```while True:``` loop:
-```
-update()
-```
-
-With these extra lines Python will only redraw the turtles when it has to, so it should stop the flickering.
-
-### Draw the hands in the order you want
+## Draw the hands in the order you want
 
 Most clocks have the second hand above the minute and hour hands. If you've added the hands in the order of this project you will find the second hand is drawn *under* the hour and minute hands. To change this and put the second hand on top you need to change the order you create the turtles.
 
