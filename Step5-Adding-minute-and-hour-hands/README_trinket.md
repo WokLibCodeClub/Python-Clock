@@ -17,9 +17,9 @@ Change the coordinates in the ```screen.register_shape()``` line of code to make
 
 ![Clock with grid and minute hand](clock_grid_hand_sm.gif "Clock with x and y coordinate grid and minute hand outline") 
 
-Once you have a nice-looking minute hand you can use very similar code to make an hour hand:
+Once you have a nice-looking minute hand you can use very similar code to make an hour hand. The hour hand in a clock is usually a bit fatter and a bit shorter.
 
-```
+```python
 screen.register_shape("hour hand", (your list of coordinates for the hour hand in the brackets))
 hour_hand = Turtle()
 hour_hand.color("black")
