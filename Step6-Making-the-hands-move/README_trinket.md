@@ -6,7 +6,7 @@ We are going to follow the same steps we used to make the second hand point in t
 
 The first step for the minute hand is to work out **how many degrees this hand moves every second**.
 
-**Here is a very important point:** Python is really good at doing calculations. So coders *never* have to work out difficult sums - the computer can do that. What the coder has to do is **_work out the right formula_** to give the computer so the computer can calculate the right answer.
+**Here is a very important point:** Python is really good at doing calculations. So coders *never* have to work out difficult sums - the computer can do that. What the coder has to do is **_work out the right formula_** to give the computer, so the computer can calculate the right answer.
 
 To work out the formula for how many degrees the minute hand moves every second we can use these facts:
 
@@ -61,7 +61,7 @@ Next we multiply this formula by the formula for how many degrees the minute han
 The last step is to use the function to convert clock angle to turtle angle, then the ```setheading()``` function to point the minute hand turtle in the right direction:
 
 ```python
-minute_hand.setheading(****your formula in here****)
+minute_hand.setheading(clk_to_turt(****your formula in here****))
 ```
 
 Once you think you have got the formula put this line of code into the ```while True:``` loop, after the code to set the direction of the second hand and run your code. Is the minute hand pointing to the right place? Watch your clock for a while to see if the minute hand is slowly creeping round. Whenever the second hand points at 12 the minute hand should be pointing exactly at one of the minute marks.
