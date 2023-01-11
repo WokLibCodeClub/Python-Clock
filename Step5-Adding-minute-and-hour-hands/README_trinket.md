@@ -15,7 +15,7 @@ If you save and run your code you should see that your clock has a moving second
 
 Change the coordinates in the ```screen.register_shape()``` line of code to make a better shape. To understand what the coordinates mean look at this picture of the clock with the x and y coordinates of the minute hand marked. You need to select x and y values of corner points to make a thinner, more elegant minute hand.
 
-![Clock with grid and minute hand](clock_min_hand.gif "Clock with x and y coordinate grid and minute hand outline") 
+![Clock with grid and minute hand](clock_grid_hand_sm.gif "Clock with x and y coordinate grid and minute hand outline") 
 
 Once you have a nice-looking minute hand you can use very similar code to make an hour hand:
 
