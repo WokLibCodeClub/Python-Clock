@@ -42,7 +42,7 @@ t.hideturtle()
 >
 >This will keep the turtle window open. Make sure this line is always the *last* line in your code - don't put any lines of code after this.
 >
->If you are using the IDLE editor _*YOU DO NOT NEED THIS LINE OF CODE*_.
+>If you are using the IDLE editor or coding using trinket _*YOU DO NOT NEED THIS LINE OF CODE*_.
 
 ---
 
