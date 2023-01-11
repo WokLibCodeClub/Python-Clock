@@ -8,7 +8,7 @@ The first step for the minute hand is to work out **how many degrees this hand m
 
 **Here is a very important point:** Python is really good at doing calculations. So coders *never* have to work out difficult sums - the computer can do that. What the coder has to do is **_work out the right formula_** to give the computer so the computer can calculate the right answer.
 
-To work out the formula for the minute hand we can use these facts:
+To work out the formula for how many degrees the minute hand moves every second we can use these facts:
 
 + at the beginning of the hour the minute hand points up towards 12 o'clock
 + the minute hand takes exactly one hour to go right round the clock until it's pointing at 12 o'clock again
@@ -27,6 +27,7 @@ One way of putting this in code is:
 ```python
 360/(60*60)
 ```
+The answer is how many degrees the minute hand moves in one second.
 
 </details>
 
@@ -45,18 +46,21 @@ Can you work out the Python formula, using the variables ```M``` and ```S```, to
 
 <details><summary>Hint</summary>
 
-We need to divide the number of degrees in a circle by the number of seconds in an hour.
+If each minute lasts 60 seconds, then there will be 60 seconds for every minute in the variable ```M```. We can calculate this number using ```M * 60```.
 
-One way of putting this in code is:
+Then we add in the number of seconds since the last minute started - this is in the variable ```S```. So the final answer for the number of seconds since the beginning of the last hour is
 
 ```python
-360/(60*60)
+M * 60 + S
 ```
 
 </details>
 
-Then we multiply this formula by the formula you worked out for how many degrees the minute hand moves every second and we now have a formula to set the direction of pointing for the minute hand. We will set this direction using the code below. Put this code underneath the code which sets the heading for the second hand:
-```
+Next we multiply this formula by the formula for how many degrees the minute hand moves every second and we now have a formula for the clock angle of the minute hand. 
+
+The last step is to use the function to convert clock angle to turtle angle, then the ```setheading()``` function to point the minute hand turtle in the right direction:
+
+```python
 minute_hand.setheading(****your formula in here****)
 ```
 
