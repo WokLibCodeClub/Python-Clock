@@ -96,7 +96,7 @@ Take all the code for creating and defining the second_hand turtle - in one exam
 ```
 second_hand = Turtle()
 second_hand.color("red")
-screen.register_shape("second hand", ((-1,-4), (1,-4), (1,230), (-1, 230)))
+s.register_shape("second hand", ((0,-4), (0,-4), (0,150), (0, 150)))
 second_hand.shape("second hand")
 ```
 
