@@ -97,6 +97,24 @@ If the second hand doesn't point in the right direction you need to adjust your 
 
 When you are sure your second hand is moving correctly you can delete the ```print(S)``` line, as this is just for checking the code.
 
+### Updating the picture
+
+You might notice some very strange behaviour when the second hand gets near the 3. Instead of ticking past the 3 it suddenly goes round almost the full circle in the wrong direction and resumes ticking after the 3.
+
+To stop this happening we can add two lines of code. First, immediately after the line ```s.bgpic(clock_image)``` add the line
+
+```python
+tracer(0)
+```
+
+and secondly, as the *last* line in the ```while True:``` loop add the line (and indent it)
+
+```python
+update()
+```
+
+These two lines mean the screen will only refresh after the turtle has moved to its proper position, so you will no longer see it slowly rotating before it starts ticking.
+
 ### Note about indents
 
 When you put code inside a loop it's essential to **_indent_** all the lines of code inside the loop. In trinket you can indent lots of lines of code all in one go - select all the lines you want to indent, then press the TAB key once. You should see all the lines indent together.
