@@ -110,7 +110,7 @@ tracer(0)
 and secondly, as the *last* line in the ```while True:``` loop, add the line (and indent it)
 
 ```python
-update()
+  update()
 ```
 
 These two lines mean the screen will only refresh after the turtle has moved to its proper position, so you will no longer see it slowly rotating before it starts ticking.
