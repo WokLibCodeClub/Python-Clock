@@ -107,7 +107,7 @@ To stop this happening we can add two lines of code. First, immediately after th
 tracer(0)
 ```
 
-and secondly, as the *last* line in the ```while True:``` loop add the line (and indent it)
+and secondly, as the *last* line in the ```while True:``` loop, add the line (and indent it)
 
 ```python
 update()
