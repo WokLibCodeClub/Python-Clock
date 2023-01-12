@@ -32,5 +32,4 @@ If you want to check what your hour hand looks like without seeing the minute ha
 
 [Continue to Step 6 - Making the minute and hour hands move](../Step6-Making-the-hands-move/README_trinket.md)
 
-
-
+[Go back to previous page](../Step5-Adding-minute-and-hour-hands/README_trinket.md)
