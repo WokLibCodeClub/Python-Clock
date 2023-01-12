@@ -105,3 +105,8 @@ and move it so it is *after* the code which creates and defines the hour_hand an
 Hooray - you now have a functioning clock! Congratulations!
 
 [Continue to Step 7 - Customising the clock background](../Step7-Custom-clock-background)
+
+[Go back to previous page](../Step6-Making-the-hands-move/README_trinket.md)
+
+
+
