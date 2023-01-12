@@ -122,3 +122,5 @@ When you put code inside a loop it's essential to **_indent_** all the lines of 
 Now you've got the second hand moving properly it's time to add the minute and hour hands to the clock.
 
 [Continue to Step 5 - Adding the minute and hour hands](../Step5-Adding-minute-and-hour-hands/README_trinket.md)
+
+[Go back to previous page](../Step3-Setting-up-the-Analogue-clock/README_trinket.md)
