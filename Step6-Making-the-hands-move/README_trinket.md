@@ -106,4 +106,4 @@ Hooray - you now have a functioning clock! Congratulations!
 
 [Continue to Step 7 - Customising the clock background](../Step7-Custom-clock-background)
 
-[Go back to previous page](../Step6-Making-the-hands-move/README_trinket.md)
+[Go back to previous page](../Step5-Adding-minute-and-hour-hands/README_trinket.md)
