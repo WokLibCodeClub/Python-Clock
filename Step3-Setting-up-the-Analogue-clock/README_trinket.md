@@ -69,6 +69,6 @@ When you've calculated the number edit your code, save it and try running it.
 
 [Continue to Step 4 - Setting the position of the second hand](../Step4-Setting-second-hand-position/README_trinket.md)
 
-[Go back to previous page](../Step2-Make-a-digital-clock)
+[Go back to previous page](../Step2-Make-a-digital-clock/README3.md)
 
 ###### Clock image copied from [https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html](https://www.codenameone.com/blog/codename-one-graphics-part-2-drawing-an-analog-clock.html)
