@@ -112,7 +112,13 @@ Run the code - you should now see a circle around the clock, and the hands movin
 
 The hands may not be the right size for your circle, but don't worry about that - we'll fix it in the next step. Adjust the circle parameters to get the appearance of the circle just right.
 
+If you are using *a standalone Python installation*:
 [Continue to _2. Scale the clock hands to the size of clock_](README7.md)
+
+
+If you are using *trinket*:
+[Continue to _2. Scale the clock hands to the size of clock_](README7_trinket.md)
+
 
 [Go back to previous page if you are coding with a standalone Python installation](../Step6-Making-the-hands-move)
 
