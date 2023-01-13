@@ -82,7 +82,7 @@ We can make the turtle draw a circle with the code ```grid_turtle.circle(******)
 
 We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used ```"red"``` and ```"black"``` in the code. Some of the other colours available are: ```"white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown"```. The turtle colour is set with ```grid_turtle.color(****)``` with the colour, _including quote marks_, inside the brackets.
 
-The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in pixels in the brackets. Start with a thickness of, say, 4 or 5 and adjust it as you like.
+The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in pixels in the brackets. Start with a thickness of, say, 3 or 4 and adjust it as you like.
 
 When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point.
 
@@ -93,10 +93,8 @@ Here are the lines of code to draw the circle. You will need to fill in the ques
 Insert these lines _**after**_ the ```grid_turtle.penup()``` line.
 
 ```python
-circle_thick = 0.05
-
 grid_turtle.color(?)
-grid_turtle.pensize(clock_radius * circle_thick)
+grid_turtle.pensize(?)
 
 grid_turtle.goto(?,?)
 grid_turtle.pendown()
