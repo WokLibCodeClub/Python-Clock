@@ -23,7 +23,7 @@ minute_hand.color("black")
 minute_hand.shape("minute hand")
 ```
 
-Here is the same section of code after making the change:
+Here is the same section of code ***after*** making the change:
 
 ```python
 minute_shape = scale_hands(((-3,-11), (3,-11), (1,160), (-1, 160)), clock_radius)
