@@ -91,6 +91,6 @@ The hands may be a bit small, but don't worry about that - we'll fix it in the n
 
 [Continue to *2. Scale the clock hands to the size of clock*](README7.md)
 
-[Go back to previous page if you are coding with a standalone Python installation](../../Step6-Making-the-hands-move)
+[Go back to previous page if you are coding with a standalone Python installation](../Step6-Making-the-hands-move)
 
-[Go back to previous page if you are using trinket](../../Step6-Making-the-hands-move/README_trinket.md)
+[Go back to previous page if you are using trinket](../Step6-Making-the-hands-move/README_trinket.md)
