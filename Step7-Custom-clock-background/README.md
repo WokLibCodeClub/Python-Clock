@@ -117,7 +117,7 @@ If you are using *a standalone Python installation*:
 
 
 If you are using *trinket*:
-[Continue to _2. Scale the clock hands to the size of clock_](README7_trinket.md)
+[Continue to _2. Scale the clock hands to the size of clock using trinket_](README7_trinket.md)
 
 
 [Go back to previous page if you are coding with a standalone Python installation](../Step6-Making-the-hands-move)
