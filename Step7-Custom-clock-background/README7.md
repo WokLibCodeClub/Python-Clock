@@ -1,3 +1,5 @@
+# Designing your own clock background (continued)
+
 ## 2. Scale the clock hands to the size of clock
 
 When we designed the clock hands we were using a clock background which was 551 pixels across. So the clock radius was 275 pixels (actually it was 275.5 to be exact, but you can't have decimals of pixels).
