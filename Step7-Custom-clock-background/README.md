@@ -29,7 +29,7 @@ The first step is to decide how big you want your clock to be.
 
 - _If you are using a **trinket**_ the size of clock will be limited by the size of the graphics area on the trinket page in your web browser. On most web browsers a clock diameter of 400-500 is about the biggest you can use
 
-We will put our chosen clock size a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if my clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For this example to make a clock 800 pixels across, we add this line just under the ```import``` lines:
+We will put our chosen clock size a variable called ```clock_radius``` and this should go at the top of the code, just underneath all the ```import``` instructions. Be careful here - if your clock is going to be 900 pixels across, then this is the clock's *diameter*. The radius is half that. For this example to make a clock 800 pixels across, we add this line just under the ```import``` lines:
 
 ```
 clock_radius = 400
