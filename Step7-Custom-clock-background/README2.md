@@ -1,3 +1,5 @@
+# Designing your own clock background (continued)
+
 ## 3. Draw tick marks round the outside
 
 The ```blank_clock.gif``` image we used before for the clock background had three different type of tick marks - long ticks at 12, 3, 6, and 9 positions; medium length ticks at all the other numbers; and short ticks at all the seconds positions. (The different types of tick may also have slightly different thicknesses.)
@@ -20,7 +22,7 @@ Now we'll use our drawing turtle to draw one tick at the 12 o'clock position. He
 
 Add this code *after* the code for drawing the circle.
 
-```
+```python
 tick_len = ? # the fraction of the circle radius to use for the tick length. You could try 0.05 to start with.
 tick_thick = ? # the fraction of the circle radius to use for the tick thickness. You could try 0.005 to start with.
 tick_col = *** # choose your preferred colour for the ticks - don't forget the quote marks
@@ -29,9 +31,22 @@ num_ticks = 60 # this is the number of ticks - it's 60 for all the seconds posit
 grid_turtle.pensize(tick_thick * clock_radius) # this sets the pen thickness as a fraction of the clock radius
 grid_turtle.pencolor(tick_col) # this sets the turtle's colour to your choice
 grid_turtle.goto(0,0) # this sends the turtle to the middle of the clock
-grid_turtle.setheading(0) # this makes sure the turtle is pointing up
 grid_turtle.penup() # this makes sure the turtle won't start drawing yet
 ```
+
+*If you are using **a standalone Python installation**_ then add this line*
+
+```python
+grid_turtle.setheading(0) # this makes sure the turtle is pointing up
+```
+
+*If you are using **trinket**_ then add this line*
+
+```python
+grid_turtle.setheading(90) # this makes sure the turtle is pointing up
+```
+
+
 Next we want to move the turtle out towards the edge of the clock before we draw the tick. **_How do we work out how far the turtle has to move?_**
 
 Well, if ```tick_len = 0.1``` then our tick is going to be one tenth of the radius long, so we need the turtle to move *nine* tenths of the radius before drawing. That way, at the end of the tick the turtle will have reached the edge of the clock. The amount the turtle moves before drawing, plus the length of the tick must add up to the radius of the clock.
