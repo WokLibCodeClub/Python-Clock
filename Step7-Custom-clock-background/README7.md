@@ -6,7 +6,7 @@ The clock radius of your new customised clock is ... whatever number you put in 
 
 But when you were designing your clock hands you would have been using a different sized clock, based on the background image (551 pixels acrosss for the *standalone Python installation* instructions, and 400 pixels across for the *trinket* instructions).
 
-To make the clock hands grow or shrink in the right proportion to fit the customised clock we need to scale the clock hand turtles by an amount calculated by the Python formula ```clock_radius/275```. Luckily there is a turtle command to do exactly this.
+We need to adjust the clock hands to fit the customised clock size. we need to scale the clock hand turtles by an amount calculated by the Python formula ```clock_radius/275```. Luckily there is a turtle command to do exactly this.
 
 Look in the code for your second hand turtle you should have a line of code which says
 ```
