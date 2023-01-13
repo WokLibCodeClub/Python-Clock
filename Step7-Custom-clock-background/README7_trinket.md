@@ -1,6 +1,6 @@
 # Designing your own clock background (continued)
 
-## 2. Scale the clock hands to the size of clock
+## 2. Scale the clock hands to the size of clock using trinket
 
 The clock radius of your new customised clock is ... whatever number you put in the variable ```clock_radius```.
 
