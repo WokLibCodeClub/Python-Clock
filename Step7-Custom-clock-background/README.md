@@ -55,7 +55,7 @@ s.setup(clock_radius * 2.2, clock_radius * 2.2)
 
 We will create a new turtle to do all the background drawing. In this example the turtle is called ```grid_turtle```. We don't actually want to see this turtle, only the results of the drawing, so we can hide the turtle. When the turtle is created we will set the pen to penup so the turtle won't start drawing until we tell it. Here are three lines of code to do these things:
 
-Place these lines of code _**after**_ the code that creates the other turtles, but put them _**before**_ the statement ```tracer(0)``` or before the ```while True:``` loop if you didn't use the ```tracer(0)``` instruction.
+Place these lines of code _**just after**_ the code that creates the other turtles:
 
 ```python
 grid_turtle = Turtle()
@@ -82,11 +82,7 @@ We can make the turtle draw a circle with the code ```grid_turtle.circle(******)
 
 We also want to set a colour for the circle. There are a lot of turtle colours ready for use in Python and we have already used ```"red"``` and ```"black"``` in the code. Some of the other colours available are: ```"white", "gray", "lightgray", "green", "lightgreen", "blue", "cyan", "yellow", "magenta", "gold", "orange", "maroon", "violet", "purple", "navy", "skyblue", "turquoise", "darkgreen", "chocolate", "brown"```. The turtle colour is set with ```grid_turtle.color(****)``` with the colour, _including quote marks_, inside the brackets.
 
-The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in pixels in the brackets. 
-
-However, a smarter way to do this is to give the pen thickness as a fraction of the clock radius. Then if you make your clock bigger or smaller the thickness of the circle will change in proportion. 
-
-We can put the circle thickness as a fraction in a variable called ```circle_thick```. Try a value of 0.05 to start with, and experiment to achieve a good look. Then to get the _actual_ thickness of the line in pixels  multiply ```circle_thick``` by ```clock_radius```.
+The turtle will initially be set with a pen width of 1, which will produce a very thin line - only one pixel wide. The outline of the clock will need to be thicker. You can set it to any number using ```grid_turtle.pensize(***)``` where you put your pen thickness in pixels in the brackets. Start with a thickness of, say, 4 or 5 and adjust it as you like.
 
 When the turtle draws the circle it will start and finish at the rightmost point of the circle, so before drawing we need to move the turtle to this point.
 
@@ -94,7 +90,7 @@ _Before_ drawing the circle we need to put the pen down. _After_ drawing the cir
 
 Here are the lines of code to draw the circle. You will need to fill in the question marks. Use the information above to help, and don't worry if it doesn't work exactly first time.
 
-Insert these lines _**above**_ the ```while True:``` loop.
+Insert these lines _**after**_ the ```grid_turtle.penup()``` line.
 
 ```python
 circle_thick = 0.05
@@ -106,6 +102,12 @@ grid_turtle.goto(?,?)
 grid_turtle.pendown()
 grid_turtle.circle(clock_radius)
 grid_turtle.penup()
+```
+
+**Important**: if you are using *trinket* you need to add an extra line of code just before ```grid_turtle.goto```:
+
+```python
+grid_turtle.setheading(90)
 ```
 
 Run the code - you should now see a circle around the clock, and the hands moving inside it.
