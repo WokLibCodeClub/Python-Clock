@@ -16,7 +16,7 @@ The more exciting part of the project is to use Python turtles to draw an old-fa
 >
 >These instructions were originally written for creating a project with a standalone Python installation on your computer (for example using the Python IDLE editor, or alternatively *Visual Studio Code*).
 
->If you want to code the clock using the online editor trinket.io you will find the instructions for making the digital clock will work almost exactly the same, but for the analogue clock you should look for the special trinket instructions in Step 3.
+>If you want to code the clock using the online editor trinket.io you will find the instructions for making the digital clock will work almost exactly the same, but for the analogue clock you should look for the ***special trinket instructions in Step 3***.
 
 ### Let's get started...
 
