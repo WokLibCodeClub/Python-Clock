@@ -29,6 +29,8 @@ after the line ```t = Turtle()``` that *creates* the turtle - near the beginning
 
 You should now have a functioning Digital Clock. You could experiment with changing the font, or trying italics to get a display you like.
 
+If you have followed the steps for the digital clock your code should look something like [this](ex_digital_clock.png). Click the *back* button to come back to this page.
+
 The next section shows how to create an Analogue clock. Lucklily we can use a lot of the same code for the Analogue clock.
 
 [Go to Step 3 - Setting up the Analogue clock](../Step3-Setting-up-the-Analogue-clock)
