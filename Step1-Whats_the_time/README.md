@@ -42,7 +42,6 @@ Save your code and run it. It should print out something like this:
 11
 32
 38
->>> 
 ```
 
 which means that at the moment when I ran my code the time was 38 seconds and 32 minutes past 11am.
