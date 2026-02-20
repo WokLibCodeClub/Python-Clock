@@ -4,7 +4,7 @@
 
 The ```blank_clock.gif``` image we used before for the clock background had three different type of tick marks - long ticks at 12, 3, 6, and 9 positions; medium length ticks at all the other numbers; and short ticks at all the seconds positions. (The different types of tick may also have slightly different thicknesses.)
 
-![Clock background](../Step3-Setting-up-the-Analogue-clock/blank_clock.gif "One example analogue clock") 
+![Clock background](../Step3-Setting-up-the-Analogue-clock/blank_clock.gif "One example analogue clock")
 
 We want to draw these three different types of ticks on our custom clock background. Let's start with little ticks to mark every second.
 
@@ -59,15 +59,38 @@ grid_turtle.forward(?) # this moves the turtle towards the edge of the clock
 
 You need to work out what to put in the brackets. It will be a quantity multiplied by the clock's radius, but what quantity?
 
-Go [here](README3.md) for a hint.
+<details><summary>Hint</summary>
+
+We need to give the distances in fractions of the circle radius.
+
+We know that:
+
+```fraction to move before drawing + fraction to move while drawing = 1```
+
+We can rearrange this to:
+
+```fraction to move before drawing = 1 - fraction to move while drawing```
+
+The fraction to move while drawing is in the variable ```tick_len```
+
+So the fraction to move before drawing is:
+```1 - tick_len```
+
+You need to multiply this by the clock radius to get the distance in pixels. You will need to use some brackets to get the right number!
+
+</details>
+
+<p>
 
 Now we put the turtle pen down, then we move forward while drawing the tick (again you have to put the formula in the brackets) then put the pen up again, and finally return back to the middle of the clock. Add these lines after the lines you've just added.
-```
+
+```python
 grid_turtle.pendown() # this gets the turtle ready for drawing
 grid_turtle.forward(?) # you must give the turtle for formula for how far to move
 grid_turtle.penup()
 grid_turtle.goto(0,0) # send the turtle back to the middle of the clock
 ```
+
 Save and run the code. Hopefully there's now a tick at the top of the clock. You can adjust the length and thickness by changing the variables ```tick_len``` and ```tick_thick```.
 
 (OK, I know we wanted a **long** tick at the 12 o'clock position. We will draw the shortest ticks first, then add longer ticks later on top of the short ticks, so at the end you will only see the long one at the 12.)
