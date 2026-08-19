@@ -80,6 +80,6 @@ Try this in your code before continuing.
 
 <p>
 
-[Continue](README3.md)
+[Continue with digital clock](README3.md)
 
 [Go back to previous page](../Step1-Whats_the_time/README.md)
