@@ -56,7 +56,7 @@ This will cause the code to pause for one second then check the time again and d
 
 Save your code and run it to see what happens.
 
-[Continue](README4.md)
+[Continue with digital clock](README4.md)
 
 [Go back to previous page](README.md)
 
