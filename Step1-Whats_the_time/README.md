@@ -3,8 +3,9 @@
 Computers always need to know what the time is, and usually you can see the computer time in a display at the bottom right of your screen. Computers get the exact time from the internet. Python has functions to get the exact computer time so you can use it in your code.
 
 ---
-If you are coding using trinket.io then open the starter project at 
-- [trinket.io/python/cd17011d13](https://trinket.io/python/cd17011d13)
+If you are coding using trinket.io then open the starter project at
+
+- [trinket.strivemath.org/python/cd17011d13](https://trinket.strivemath.org/python/cd17011d13)
 
 If you are coding using a standalone Python installation:
 
