@@ -2,7 +2,7 @@
 
 There is a starter trinket project for the analogue clock, which you can find at
 
-- [trinket.io/python/9459a45b06](https://trinket.io/python/9459a45b06)
+- [trinket.strivemath.org/python/9459a45b06](https://trinket.strivemath.org/python/9459a45b06)
 
 We are going to use turtles for the clock hands but first we need a clock background. The starter project has a ready-made background included, but when you've created a working analogue clock you could try experimenting with writing code to create your own clock background. (Read the instructions in Step 7 for this.)
 
